@@ -1693,7 +1693,7 @@ ul.menuTransition li {
   margin: 0px !important;
   padding: 0px;
   border: solid white thick;
-  background-image: url(profile.png);
+  background-position-x: center;
   background-size: cover;
   color: white;
   display: flex;
