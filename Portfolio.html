@@ -8,10 +8,11 @@
     />
     <style></style>
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
-    <title>Sander Vonk - My Projects</title>
+    <title>Sander Vonk - My Portfolio</title>
     <link rel="stylesheet" href="css.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
       rel="stylesheet"
@@ -60,6 +61,22 @@
           transform: translateY(-100%);
         "
       >
+        <div id="altMenu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <div class="sideMenu">
+            <div style="vertical-align: middle">
+              <li id="About_Me2"><a href="About_Me.html">About Me</a></li>
+              <li id="Projects2"><a href="Projects.html">Projects</a></li>
+              <li id="Contact2"><a href="Contact.html">Contact</a></li>
+              <li id="Code2">
+                <a href="https://github.com/sandervonk">Code</a>
+              </li>
+              <li id="Portfolio2"><a href="Portfolio.html">Portfolio</a></li>
+            </div>
+          </div>
+        </div>
         <ul id="menu">
           <li id="About_Me"><a href="About_Me.html">About Me</a></li>
           <li id="Projects"><a href="Projects.html">Projects</a></li>
@@ -67,6 +84,11 @@
           <li id="Code"><a href="https://github.com/sandervonk">Code</a></li>
           <li id="Portfolio"><a href="Portfolio.html">Portfolio</a></li>
         </ul>
+      </div>
+    </div>
+    <div class="lightbox overlay">
+      <div class="lightbox-project">
+        <div class="topImg">Your Project Name</div>
       </div>
     </div>
     <div

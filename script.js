@@ -8,8 +8,9 @@ function transition() {
     }
 }
 function highlightCurrentPage() {
-    pageId = window.location.href.split("/")[window.location.href.split("/").length - 1].substring(0, window.location.href.split("/")[window.location.href.split("/").length - 1].length - 5)
-    document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5); transition: background-color 1.5s;"
+    pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].substring(0, window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].length - 5)
+    document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+    document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
 }
 window.onload = transition
 
@@ -93,3 +94,7 @@ function setLinks() {
 
 }
 
+//for alt menu
+function myFunction(x) {
+    x.classList.toggle("change");
+}
