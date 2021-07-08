@@ -2001,6 +2001,13 @@ ul.menuTransition li {
   .lightbox-description {
     text-shadow: white 0px 0px 3px;
   }
+  .Simplify-Container {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+  }
 }
 /*end mobile*/
 .lightbox {
