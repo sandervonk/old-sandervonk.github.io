@@ -6,7 +6,6 @@ function transition() {
     if (window.location.href.includes("Contact.html")) {
         setLinks()
     }
-
 }
 function highlightCurrentPage() {
     window.onload = transition
@@ -14,7 +13,11 @@ function highlightCurrentPage() {
     if (pageId != "" && pageId != "404") {
         document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
         document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
-    } else { console.log("404 :(") }
+    } else {
+        pageId = "Contact"
+        document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+        document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+    }
 }
 function replaceContentWithSelectionWrapper(element) {
     let selection = window.getSelection().toString();
