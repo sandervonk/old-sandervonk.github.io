@@ -6,6 +6,7 @@ function transition() {
     if (window.location.href.includes("Contact.html")) {
         setLinks()
     }
+
 }
 function highlightCurrentPage() {
     window.onload = transition
