@@ -10,13 +10,12 @@ function transition() {
 function highlightCurrentPage() {
     window.onload = transition
     pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].substring(0, window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].length - 5)
-    if ((pageId != "" && pageId != "404") && (pageId === "About_Me" || pageId === "Projects" || pageId === "Contact" || pageId === "Portfolio")) {
+    if (pageId != "" && pageId != "404") {
         document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
         document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
     } else {
         pageId = "Contact"
         document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
-        document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
     }
 }
 function replaceContentWithSelectionWrapper(element) {
