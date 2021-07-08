@@ -1935,6 +1935,9 @@ ul.menuTransition li {
   z-index: 1000000 !important;
 }
 @media (hover: none) {
+  .lightbox-project {
+    max-height: unset !important;
+  }
   .flex-item > div {
     opacity: 1;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
