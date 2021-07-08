@@ -1,5 +1,5 @@
 function transition() {
-    document.getElementById('menu').className = "menuTransition"
+    document.getElementById('menu').classList += "menuTransition"
     console.log(`ran function 'transition'`)
     highlightCurrentPage()
     setupSelection()
@@ -8,25 +8,13 @@ function transition() {
     }
 }
 function highlightCurrentPage() {
+    window.onload = transition
     pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].substring(0, window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].length - 5)
-    document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
-    document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+    if (pageId != "" && pageId != "404") {
+        document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+        document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
+    } else { console.log("404 :(") }
 }
-window.onload = transition
-
-
-
-
-
-//for selection manipulation
-var selectionElements = document.querySelectorAll('.selection');
-selectionElements.forEach(function (element) {
-    element.setAttribute('original-content', element.innerHTML);  // this will be needed to reset to original after a selection has been made
-    element.addEventListener('mouseup', function () {
-        replaceContentWithSelectionWrapper(this)
-    });
-});
-
 function replaceContentWithSelectionWrapper(element) {
     let selection = window.getSelection().toString();
     if (selection.length <= 0) { // if selection length is not bigger then 0 we can stop right here
@@ -98,5 +86,5 @@ function setLinks() {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-
+setTimeout(transition, 200)
 

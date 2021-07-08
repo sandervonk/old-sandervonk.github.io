@@ -100,6 +100,11 @@ function createProjects() {
         document.getElementsByClassName('flex-container')[0].innerHTML += elementForAdd
 
     }
+    if (!isMultiple(projects.length)) {
+        console.log("unspreadable num of projects, adding element")
+        document.getElementsByClassName('flex-container')[0].innerHTML += `<div class="flex-item" id="portfolio-filler" style="background-image: url(img/Artstation.png)"> </div>`
+        document.getElementById('portfolio-filler').onclick = toArtstation
+    }
     for (project2 of projects) {
         var title2 = project2["title"]
         var href2 = `?portfolio-${title2.replace(/[^a-z0-9]/gmi, "-")}`
@@ -107,11 +112,9 @@ function createProjects() {
         genFunc = onclickFunction(`${title2.replace(/[^a-z0-9]/gmi, "")}`, genFunc, href2)
         document.getElementById(`portfolio-${title2.replace(/[^a-z0-9]/gmi, "-")}`).onclick = genFunc
     }
-    if (!isMultiple(projects.length)) {
-        console.log("unspreadable num of projects, adding element")
-        document.getElementsByClassName('flex-container')[0].innerHTML += `<div class="flex-item" id="portfolio-filler" style="background-image: url(img/Artstation.png)" </div>`
-        document.getElementById('portfolio-filler').onclick = toArtstation
-    }
+    /*
+
+    */
 }
 
 function disableScroll() {
@@ -122,7 +125,7 @@ function disableScroll() {
 
 }
 function toArtstation() {
-    window.location.href = "https://sandercvonk.artstation.com"
+    window.location.href = "https://artstation.com"
 }
 function createLightbox() {
     disableScroll()
@@ -173,7 +176,7 @@ function createLightbox() {
     }
 }
 
-if (window.location.href.includes(`? portfolio - `)) { setTimeout(createLightbox, 200) }
+if (window.location.href.includes(`?portfolio-`)) { setTimeout(createLightbox, 200) }
 setTimeout(createProjects, 100)
 //setTimeout(updateFiller, 200)
 //window.onresize = updateFiller
