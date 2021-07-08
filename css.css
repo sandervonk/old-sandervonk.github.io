@@ -2056,3 +2056,6 @@ ul.menuTransition li {
   height: unset !important;
   transition: background-size 1s ease-in-out;
 }
+ul li {
+  height: 70px !important;
+}
