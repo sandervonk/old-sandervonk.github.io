@@ -1,16 +1,15 @@
 
 //assign projects list and their info here. To add multiple descriptions, just seperate them with the string " | " or "[NEWLINE] (in progress), everything is done automatically!!
-var projects =
-    `[
+var projects = `[
         {
           "title": "Eve from WALL-E",
           "image": "Eve.jpg",
-          "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge."
+          "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
         },
         {
           "title": "Low-Poly Aircraft Carrier",
           "image": "Carrier.png",
-          "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits."
+          "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
         },
         {
           "title": "Low-Poly Lighthouse",
@@ -35,7 +34,7 @@ var projects =
         {
           "title": "Nintendo Switch Promo Art",
           "image": "Switch.png",
-          "description": "DESCRIPTION"
+          "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation"
         },
         {
           "title": "Xbox Promo Art Remake",
@@ -50,17 +49,17 @@ var projects =
         {
           "title": "Windmill Landscape Art",
           "image": "Landscape.png",
-          "description": "DESCRIPTION"
+          "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond"
         },
         {
           "title": "Aeries Login Art Prototype",
           "image": "AeriesLogin.png",
-          "description": "DESCRIPTION"
+          "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo"
         },
         {
           "title": "Aeries Overview Art Project Page",
           "image": "AeriesOverview.png",
-          "description": "DESCRIPTION"
+          "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it"
         }
       ]`
 var onclickFunction = function (name, fn, href3) {
