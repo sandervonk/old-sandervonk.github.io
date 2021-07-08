@@ -1,5 +1,13 @@
 
 //assign projects list and their info here. To add multiple descriptions, just seperate them with the string " | " or "[NEWLINE] (in progress), everything is done automatically!!
+/*template:
+,
+        {
+            "title": "title",
+            "image": "image.png",
+            "description": "description"
+        }
+*/
 var projects = `[
         {
           "title": "Eve from WALL-E",
@@ -60,6 +68,11 @@ var projects = `[
           "title": "Aeries Overview Art Project Page",
           "image": "AeriesOverview.png",
           "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it"
+        },
+        {
+            "title": "Sony WF-1000XM3 Earbuds",
+            "image": "WF-1000-XM3.png",
+            "description": "description"
         }
       ]`
 var onclickFunction = function (name, fn, href3) {
@@ -69,7 +82,17 @@ var onclickFunction = function (name, fn, href3) {
 projects = JSON.parse(projects)
 console.log(`projects:`)
 console.log(projects)
+
+const isMultiple = num => {
+    const byThree = parseInt(num / 3);
+    const byFour = parseInt(num / 4);
+    if (num === byThree * 3 && num === byFour * 4) {
+        return true
+    } else { return false }
+};
+
 function createProjects() {
+
     for (project of projects) {
         var title = project["title"]
         var image = project["image"].split(".")[0] + "512." + project["image"].split(".")[1]
@@ -84,7 +107,11 @@ function createProjects() {
         genFunc = onclickFunction(`${title2.replace(/[^a-z0-9]/gmi, "")}`, genFunc, href2)
         document.getElementById(`portfolio-${title2.replace(/[^a-z0-9]/gmi, "-")}`).onclick = genFunc
     }
-
+    if (!isMultiple(projects.length)) {
+        console.log("unspreadable num of projects, adding element")
+        document.getElementsByClassName('flex-container')[0].innerHTML += `<div class="flex-item" id="portfolio-filler" style="background-image: url(img/Artstation.png)" </div>`
+        document.getElementById('portfolio-filler').onclick = toArtstation
+    }
 }
 
 function disableScroll() {
@@ -93,6 +120,9 @@ function disableScroll() {
     sheet.insertRule(`::-webkit-scrollbar {width: 0 !important; height: 0 !important; display: none !important; }`, sheet.cssRules.length);
 
 
+}
+function toArtstation() {
+    window.location.href = "https://sandercvonk.artstation.com"
 }
 function createLightbox() {
     disableScroll()
@@ -142,7 +172,9 @@ function createLightbox() {
         sheet.insertRule(`.lightbox-description {text-align: justify !important;}`);
     }
 }
-if (window.location.href.includes(`?portfolio-`)) { setTimeout(createLightbox, 200) }
-setTimeout(createProjects, 100)
 
+if (window.location.href.includes(`? portfolio - `)) { setTimeout(createLightbox, 200) }
+setTimeout(createProjects, 100)
+//setTimeout(updateFiller, 200)
+//window.onresize = updateFiller
 
