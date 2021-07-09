@@ -1,5 +1,5 @@
 function transition() {
-    document.getElementById('menu').classList += "menuTransition"
+    document.getElementById('menu').classList += " menuTransition"
     console.log(`ran function 'transition'`)
     highlightCurrentPage()
     setupSelection()
@@ -89,5 +89,4 @@ function setLinks() {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-setTimeout(transition, 200)
-window.onload = transition()
+window.onload = transition
