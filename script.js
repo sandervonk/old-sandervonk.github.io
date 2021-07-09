@@ -90,4 +90,4 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 setTimeout(transition, 200)
-
+window.onload = transition
