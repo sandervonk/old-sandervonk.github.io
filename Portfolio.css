@@ -17,7 +17,11 @@
 /*2 sections*/
 @media (min-width: 30rem) {
   #portfolio-filler {
-    background-size: cover !important;
+    background-size: 150% 100% !important;
+    transition: background-size 0.4s ease-out !important;
+  }
+  #portfolio-filler:hover {
+    background-size: 180% 120% !important;
   }
 }
 /*3 sections*/

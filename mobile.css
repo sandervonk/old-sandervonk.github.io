@@ -72,4 +72,8 @@
     transform: translate(-50%, -50%) !important;
     width: 100% !important;
   }
+  .sidemenu {
+    overflow-y: scroll;
+    max-height: 300px;
+  }
 }
