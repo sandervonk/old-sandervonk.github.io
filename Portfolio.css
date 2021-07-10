@@ -214,3 +214,11 @@ video::-webkit-media-controls-mute-button {
   padding-right: 10px !important;
 }
 /*end dumb stuff*/
+.flex-item {
+  cursor: pointer;
+}
+.lightbox-project {
+  max-height: 700px !important;
+  height: 80% !important;
+  max-height: 1200px;
+}
