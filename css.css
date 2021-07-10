@@ -1877,7 +1877,7 @@ ul.menuTransition li {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0px;
-  z-index: 100000001;
+  z-index: 100000001 !important;
   width: 80%;
   min-width: 400px;
   max-width: 700px;

@@ -201,3 +201,16 @@ video::-webkit-media-controls-volume-slider {
 video::-webkit-media-controls-mute-button {
   display: none;
 }
+.lightbox-project {
+  display: none;
+}
+
+/*start johan stuff*/
+.lightbox-description {
+  font-variant: unset !important;
+  text-transform: none !important;
+  font-size: 13pt !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+/*end dumb stuff*/
