@@ -26,7 +26,7 @@ var projects = `
   {
     "title": "Eve from WALL-E",
     "image": "Eve.jpg",
-    "slideshow": [["projects/Video.mp4", "Vid Test"], "projects/Snoopy.png"],
+    "slideshow": [["projects/Video.mp4", "Vid Test"], "projects/Eve/EveLaugh.jpg"],
     "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
   },
   {
@@ -175,7 +175,7 @@ function createLightbox() {
             slideImg = slideImg[0]
           }
           if (slideImg.includes(".png") || slideImg.includes(".jpg") || slideImg.includes(".webp")) {
-            slideImgHTML += `<div class="fade mySlides"><div class=numbertext>${index + 1} / ${line["slideshow"].length}</div><img src=${slideImg} style=width:100%><div class=text>${caption}</div></div>`
+            slideImgHTML += `<div class="fade mySlides"><div class=numbertext>${index + 1} / ${line["slideshow"].length}</div><div style="background-image: url(${slideImg}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
           } else {
             fileExtention = slideImg.split('.')[slideImg.split('.').length - 1]
             console.log(`treating slide element as video of extention: ${fileExtention}`)

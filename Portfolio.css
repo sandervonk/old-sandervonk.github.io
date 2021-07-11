@@ -222,3 +222,20 @@ video::-webkit-media-controls-mute-button {
   height: 80% !important;
   max-height: 1200px;
 }
+video {
+  height: unset;
+  aspect-ratio: 16/9;
+}
+.lightbox-project .mySlides div:nth-child(2) {
+  aspect-ratio: 16/9 !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  aspect-ratio: 16/9;
+  background: #f6f8fa;
+  border: solid thin lightgrey !important;
+  border-left-style: none !important;
+  border-right-style: none !important;
+}
