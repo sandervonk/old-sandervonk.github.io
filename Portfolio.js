@@ -26,7 +26,7 @@ var projects = `
   {
     "title": "Eve from WALL-E",
     "image": "Eve.jpg",
-    "slideshow": [["projects/Eve/EveLighter.jpg", "Here's a render that I made to look like a scene from the movie"], ["projects/Eve/EveLaugh.jpg", "A cute render I did towards the beginning of modelling EVE"], ["projects/Eve/EveCannon.mp4","Animation Showing the draw and stow of the arm cannon I made"], ["projects/Eve/EveFingers.mp4", "Status Lights + Fingers retraction and extention animation"], ["projects/Eve/EveArmAim.jpg", "Here's another render from when I was working on the arm of the render"], ["projects/Eve/EveBean.mp4", "Early animation showing the 'beanifing' of the model."]],
+    "slideshow": [["projects/Eve/EveLighter.jpg", "Here's a render that I made to look like a scene from the movie"], ["projects/Eve/EveLaugh.jpg", "A cute render I did towards the beginning of modelling EVE"], ["projects/Eve/EveCannon.mp4","Animation Showing the draw and stow of the arm cannon I made"], ["projects/Eve/EveFingers.mp4", "Status Lights + Fingers retraction and extention animation"], ["projects/Eve/EveArmAim.jpg", "Here's another render from when I was working on the arm of the render"], ["projects/Eve/EveBean.mp4", "Early animation showing the 'beanifing' of the model."], ["projects/Eve/EveLighterSolid.jpg", "Solid view/clay render of the lighter scene"]],
     "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
   },
   {
