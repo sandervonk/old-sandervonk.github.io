@@ -225,6 +225,7 @@ video::-webkit-media-controls-mute-button {
 video {
   height: unset;
   aspect-ratio: 16/9;
+  background: #333;
 }
 .lightbox-project .mySlides div:nth-child(2) {
   aspect-ratio: 16/9 !important;
@@ -234,7 +235,7 @@ video {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   aspect-ratio: 16/9;
-  background: #f6f8fa;
+  background: #333;
   border: solid thin lightgrey !important;
   border-left-style: none !important;
   border-right-style: none !important;
