@@ -22,6 +22,7 @@ async function loadFile(url) {
 
 var projects = loadFile("Projects.json")
 */
+
 var projects = `
   {
     "title": "Eve from WALL-E",
