@@ -240,3 +240,7 @@ video {
   border-left-style: none !important;
   border-right-style: none !important;
 }
+.lightbox-project .mySlides div:nth-child(2),
+video {
+  background: #717171;
+}
