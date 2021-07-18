@@ -28,6 +28,7 @@
   .picture > img {
     width: 200px;
   }
+
   .social.slot2 {
     transform: translate(-50%, -50%) rotate(-138deg) translate(120px)
       rotate(138deg);
