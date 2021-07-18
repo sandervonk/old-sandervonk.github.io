@@ -1977,3 +1977,7 @@ ul.menuTransition li {
 ul li {
   height: 70px !important;
 }
+.projects-wrapper {
+  display: flex !important;
+  flex-flow: column !important;
+}

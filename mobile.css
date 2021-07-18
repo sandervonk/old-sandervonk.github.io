@@ -45,6 +45,7 @@
     padding: 0px !important;
     padding-top: 70px !important;
   }
+
   .w-full.px-8 {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -72,6 +73,7 @@
     transform: translate(-50%, -50%) !important;
     width: 100% !important;
   }
+
   .sidemenu {
     overflow-y: scroll;
     max-height: 300px;
