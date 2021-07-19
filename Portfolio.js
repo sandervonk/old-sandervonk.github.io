@@ -295,6 +295,9 @@ function createLightbox() {
 
 
         }
+        if (line["sketchfab"].length === 1) {
+          document.getElementsByClassName("lightbox-project")[0].classList += " oneSketch"
+        }
         document.getElementsByClassName("sketchshow-container")[0].innerHTML = sketchHTML + document.getElementsByClassName("sketchshow-container")[0].innerHTML
       } else {
         document.getElementsByClassName("sketchshow-container")[0].remove()

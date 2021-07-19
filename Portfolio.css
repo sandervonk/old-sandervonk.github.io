@@ -147,6 +147,7 @@
   width: 100%;
   text-align: center;
   text-shadow: black 0 0 3px;
+  user-select: none;
 }
 
 /* Number text (1/3 etc) */
@@ -277,4 +278,8 @@ video {
 
 .lightbox-project .mySlides div:nth-child(2), video {
   background: #717171;
+}
+
+.oneSketch .sketchDot, .oneSketch .sketchshow-container .prev, .oneSketch .sketchshow-container .next, .oneSketch .sketchshow-container .numbertext {
+  display: none !important;
 }
