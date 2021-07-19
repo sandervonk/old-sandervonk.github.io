@@ -292,8 +292,8 @@ function showSketch(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  //try {
-  sketches[sketchIndex - 1].style.display = "block";
-  dots[sketchIndex - 1].className += " active";
-  //} catch { }
+  try {
+    sketches[sketchIndex - 1].style.display = "block";
+    dots[sketchIndex - 1].className += " active";
+  } catch { }
 }
