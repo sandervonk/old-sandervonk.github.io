@@ -195,7 +195,7 @@ function createLightbox() {
   }
   for (line of projects) {
     if (line["title"] == bottomText) {
-
+      document.getElementsByClassName("lightbox-project")[0].innerHTML += `<div class=sketchshow-container><a class=prev onclick=plusSketch(-1)>❮</a> <a class=next onclick=plusSketch(1)>❯</a></div><div id=sketchDots style=text-align:center></div>`
       //add slideshow dots
       //only add 'skech'show if needed
       if (line["sketchfab"] != undefined) {
