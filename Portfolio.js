@@ -56,8 +56,10 @@ var projects = `
       ["projects/Carrier/CarrierHangarSolid.jpg", "Same as previous, just a quick solid view render"]
     ],
     "sketchfab": [
-      ["925f9132968b48b69dc190f9ab19b629", "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"],
-      ["925f9132968b48b69dc190f9ab19b629", "caption2"]
+      [
+      "925f9132968b48b69dc190f9ab19b629", 
+      "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+      ]
     ],
     "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
   },
@@ -84,7 +86,13 @@ var projects = `
   {
     "title": "Nintendo Switch Promo Art",
     "image": "Switch.png",
-    "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation"
+    "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation",
+    "sketchfab": [
+      [
+      "c01af3267244448f99d5d79be002d0ac", 
+      "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+      ]
+    ]
   },
   {
     "title": "Xbox Promo Art Remake",
@@ -283,7 +291,7 @@ function createLightbox() {
             sketch = sketch[0]
           }
           //slideImgHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><div style="background-image: url(${sketch}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
-          sketchHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><iframe title="" class="" width="640" height="360" src="https://sketchfab.com/models/${sketch}/embed" frameborder="0" allow="autoplay; fullscreen; vr" allowvr="" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%;"></iframe><div class=text>${caption}</div></div>`
+          sketchHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><iframe class="" width="640" height="360" src="https://sketchfab.com/models/${sketch}/embed?autostart=1;" frameborder="0" allow="autoplay; fullscreen; vr" allowvr="" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%;"></iframe><div class=text>${caption}</div></div>`
 
 
         }
