@@ -148,6 +148,7 @@
   text-align: center;
   text-shadow: black 0 0 3px;
   user-select: none;
+  padding-top: 0px !important;
 }
 
 /* Number text (1/3 etc) */

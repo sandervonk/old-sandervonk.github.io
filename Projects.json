@@ -90,7 +90,7 @@
     "sketchfab": [
       [
         "925f9132968b48b69dc190f9ab19b629",
-        "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+        "Sketchfab Embed from Simplified .fbx export with procedural textures baked to palette"
       ]
     ],
     "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
