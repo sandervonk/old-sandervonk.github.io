@@ -113,6 +113,24 @@
   {
     "title": "Snoopy in Cell-Shaded 3D",
     "image": "Snoopy.png",
+    "slideshow": [
+      [
+        "projects/Snoopy/SnoopyTimelapse.mp4",
+        "Workflow TImelapse consisting of the majority of the project, up until I finished the typewriter!"
+      ],
+      [
+        "projects/Snoopy/SnoopyFullLoop.mp4",
+        "Short render of the camera circling the model"
+      ],
+      [
+        "projects/Snoopy/SnoopyFullLoopWire.mp4",
+        "Short render of the camera circling the model with wireframe overlays"
+      ],
+      [
+        "projects/Snoopy/SnoopyTypewriter.gif",
+        "Gif of the typewriter spinning"
+      ]
+    ],
     "description": "Ranking high among my favorite ever projects, making these models was a joy, especially when I switched over from a solid clay-like preview to a realtime renderer, which showed me the true cell-shaded nature of the models.[NEWLINE]Though this is still very much a work in progress, I love the direction in which its' going, and really appreciate the experience I've learned with cartoon styles in 3D modelling softwares and renderers"
   },
   {

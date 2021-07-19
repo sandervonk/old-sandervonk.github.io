@@ -131,7 +131,7 @@ function createLightbox() {
             caption = slideImg[1]
             slideImg = slideImg[0]
           }
-          if (slideImg.includes(".png") || slideImg.includes(".jpg") || slideImg.includes(".webp")) {
+          if (slideImg.includes(".png") || slideImg.includes(".jpg") || slideImg.includes(".webp") || slideImg.includes(".gif")) {
             slideImgHTML += `<div class="fade mySlides"><div class=numbertext>${index + 1} / ${line["slideshow"].length}</div><div style="background-image: url(${slideImg}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
           } else {
             fileExtention = slideImg.split('.')[slideImg.split('.').length - 1]
