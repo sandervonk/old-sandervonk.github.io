@@ -156,6 +156,88 @@
   {
     "title": "Nintendo Switch Promo Art",
     "image": "Switch.png",
+    "slideshow": [
+      [
+        "projects/Switch/SwitchCombined1.jpg",
+        "Full Combined Render of the First frame with Screen Space Reflections and Ambient Occlusion"
+      ],
+      [
+        "projects/Switch/SwitchCombined2.jpg",
+        "Full Combined Render of the Second frame with Screen Space Reflections and Ambient Occlusion"
+      ],
+      [
+        "projects/Switch/SwitchCombined3.jpg",
+        "Full Combined Render of the 3rd frame with Screen Space Reflections and Ambient Occlusion. Unlike the 2 before, this one isn't based on an ad/promotional materials that were actually used, I just made it up to show the detailing I did on the back and top"
+      ],
+      [
+        "projects/Switch/SwitchCombined5.jpg",
+        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
+      ],
+      [
+        "projects/Switch/SwitchCombined4.jpg",
+        "Simple cycles render featuring all the models I made for this (Cycles because it did the shadows and reflections a bit better, and kept the color of the white 'floor')"
+      ],
+      [
+        "projects/Switch/SwitchDark1.jpg",
+        "Specular Pass of the First Frame (These look like a dark mode version of it in themselves!)"
+      ],
+      [
+        "projects/Switch/SwitchDark2.jpg",
+        "Specular Pass of the Second Frame (These look like a dark mode version of it in themselves!)"
+      ],
+      [
+        "projects/Switch/SwitchDark3.jpg",
+        "Specular Pass of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse1.jpg",
+        "Diffuse Color/Solid Color Pass of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse2.jpg",
+        "Diffuse Color Pass of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse3.jpg",
+        "Diffuse Color Pass of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid1.jpg",
+        "Solid/Clay Render of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid2.jpg",
+        "Solid View Render of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid3.jpg",
+        "Solid Pass of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire1.jpg",
+        "Solid Wireframe Render of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire2.jpg",
+        "Solid Wireframe View of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire3.jpg",
+        "Solid Wireframe View of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchWire1.jpg",
+        "Wireframe Render of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchWire2.jpg",
+        "Wireframe View of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchWire3.jpg",
+        "Wireframe View of the 3rd Frame"
+      ]
+    ],
     "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation",
     "sketchfab": [
       [
