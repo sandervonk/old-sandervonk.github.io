@@ -27,12 +27,34 @@ var projects = `
   {
     "title": "Eve from WALL-E",
     "image": "Eve.jpg",
-    "slideshow": [["projects/Eve/EveLighter.jpg", "Here's a render that I made to look like a scene from the movie"], ["projects/Eve/EveLaugh.jpg", "A cute render I did towards the beginning of modelling EVE"], ["projects/Eve/EveCannon.mp4","Animation Showing the draw and stow of the arm cannon I made"], ["projects/Eve/EveFingers.mp4", "Status Lights + Fingers retraction and extention animation"], ["projects/Eve/EveArmAim.jpg", "Here's another render from when I was working on the arm of the render"], ["projects/Eve/EveBean.mp4", "Early animation showing the 'beanifing' of the model."], ["projects/Eve/EveLighterSolid.jpg", "Solid view/clay render of the lighter scene"]],
+    "slideshow": [
+      ["projects/Eve/EveLighter.jpg", "Here's a render that I made to look like a scene from the movie"], 
+      ["projects/Eve/EveLaugh.jpg", "A cute render I did towards the beginning of modelling EVE"], 
+      ["projects/Eve/EveCannon.mp4","Animation Showing the draw and stow of the arm cannon I made"], 
+      ["projects/Eve/EveFingers.mp4", "Status Lights + Fingers retraction and extention animation"], 
+      ["projects/Eve/EveArmAim.jpg", "Here's another render from when I was working on the arm of the render"], 
+      ["projects/Eve/EveBean.mp4", "Early animation showing the 'beanifing' of the model."], 
+      ["projects/Eve/EveLighterSolid.jpg", "Solid view/clay render of the lighter scene"]
+    ],
     "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
   },
   {
     "title": "Low-Poly Aircraft Carrier",
     "image": "Carrier.png",
+    "slideshow": [
+      ["projects/Carrier/CarrierDeckCargo.jpg", "Deck render with the C-2 galaxy"], 
+      ["projects/Carrier/CarrierDeckClose-Up.jpg", "Quick deck render accentuating the fact that I forgot to lower everything all the way down onto the deck"],
+      ["projects/Carrier/CarrierHangarNew.jpg", "Render of the Hangar with new models + Lighting"],
+      ["projects/Carrier/CarrierDeck2.jpg", "New feature render with updated models and lights (old one 3 slides later)"],
+      ["projects/Carrier/CarrierSunset.jpg", "4k cycles render with a sunset hdri that I quickly made."],
+      ["projects/Carrier/CarrierTop.jpg", "Top down (Orthographic) view of the entire model. This could be used for a minimap when the player is on the upper deck."],
+      ["projects/Carrier/CarrierDeck1.jpg", "A hyperrealistic render of the deck I did for fun"],
+      ["projects/Carrier/CarrierTimelapse.mp4", "Timelapse of making the carrier; At least the first parts..."],
+      ["projects/Carrier/CarrierHangerTop.jpg", "Top Down (Orthographic) view of just the hold/hangar area. Could be used for a map view when player is in lower level."],
+      ["projects/Carrier/CarrierSmoothWater.jpg", "4k render from a bit earlier in with smooth water made using an ocean modifier."], 
+      ["projects/Carrier/CarrierHangarCycles.jpg", "Cycles render of the inside of the hold/hangar area. Much will be changed here in terms of objects and scaling. (Note that the closest crate is actually brown, just the lighting makes it look oddly colorless)"],
+      ["projects/Carrier/CarrierHangarSolid.jpg", "Same as previous, just a quick solid view render"]
+    ],
     "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
   },
   {
