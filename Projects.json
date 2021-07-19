@@ -1,66 +1,159 @@
-({
-  "title": "Eve from WALL-E",
-  "image": "Eve.jpg",
-  "slideshow": ["projects/Windows.png", "projects/Snoopy.png"],
-  "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
-},
-{
-  "title": "Low-Poly Aircraft Carrier",
-  "image": "Carrier.png",
-  "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
-},
-{
-  "title": "Low-Poly Lighthouse",
-  "image": "Lighthouse.png",
-  "description": "Though the main aim of this project was to get more practice with low-poly enviroments, it also served as a very helpful segway into a sort of, for lack of a better word, multi-media, type of rendering, a mix of many styles and techniques.[NEWLINE]This project also provided me with lots of helpful practice using hype-realistic rendering on non-realistic scenes. In this render specifically, I used a volumetric for the beam of the lighthouse, something that, though actually low-poly itself, provides some extra depth to the scne, different from the harsh lines on the rest of the landscape"
-},
-{
-  "title": "Pixel 4a Concept",
-  "image": "Pixel4a.png",
-  "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept"
-},
-{
-  "title": "Vinyl Record Player",
-  "image": "RecordPlayer.png",
-  "description": "Perhaps one of the less fine-tuned projects I've worked on, this model mainly served as practice with image texturing and product design. I worked off of promo art for a small kickstarter retro-modern vinyl record player called the TT8.[NEWLINE]If you look closely at the corners, you can actually see some of the spots where the UV was all mapped to one point because of weirdly-placed bevel modifiers"
-},
-{
-  "title": "Snoopy in Cell-Shaded 3D",
-  "image": "Snoopy.png",
-  "description": "Ranking high among my favorite ever projects, making these models was a joy, especially when I switched over from a solid clay-like preview to a realtime renderer, which showed me the true cell-shaded nature of the models.[NEWLINE]Though this is still very much a work in progress, I love the direction in which its' going, and really appreciate the experience I've learned with cartoon styles in 3D modelling softwares and renderers"
-},
-{
-  "title": "Nintendo Switch Promo Art",
-  "image": "Switch.png",
-  "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation"
-},
-{
-  "title": "Xbox Promo Art Remake",
-  "image": "Xbox.png",
-  "description": "This peice was mainly done as a challenge to myself to see how well I could recreate a professional product render. Given that I had no real-life counterpart and nothing but some vauge promotional materials to work off of, I really like the way this turned out. The creases coming from the corners are very visible, something I struggled to get less apparent. Though this model creates more of a V from the corners to the middle, it still represents the model pretty well imo.[NEWLINE]Though I tend to forget it myself, this model is actually only the top part of the xbox, under there it's just a flat bottom, no detailing, which definitely made modelling it easier"
-},
-{
-  "title": "Minimalistic Windows 10 Wallpaper",
-  "image": "Windows.png",
-  "description": "This idea came to me when I was working with small windows and was looking at my background a lot. I wondered just how hard it would be to make a minimalistic version of the widely-known Windows 10 wallpaper.[NEWLINE]Though I have to admit I had it a lot easier than those trying to take the pictures in real life, I'm still proud of this idea, and love the way it turned out"
-},
-{
-  "title": "Windmill Landscape Art",
-  "image": "Landscape.png",
-  "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond"
-},
-{
-  "title": "Aeries Login Art Prototype",
-  "image": "AeriesLogin.png",
-  "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo"
-},
-{
-  "title": "Aeries Overview Art Project Page",
-  "image": "AeriesOverview.png",
-  "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it"
-},
-{
-  "title": "Sony WF-1000XM3 Earbuds",
-  "image": "WF-1000-XM3.png",
-  "description": "description"
-})
+[
+  {
+    "title": "Eve from WALL-E",
+    "image": "Eve.jpg",
+    "slideshow": [
+      [
+        "projects/Eve/EveLighter.jpg",
+        "Here's a render that I made to look like a scene from the movie"
+      ],
+      [
+        "projects/Eve/EveLaugh.jpg",
+        "A cute render I did towards the beginning of modelling EVE"
+      ],
+      [
+        "projects/Eve/EveCannon.mp4",
+        "Animation Showing the draw and stow of the arm cannon I made"
+      ],
+      [
+        "projects/Eve/EveFingers.mp4",
+        "Status Lights + Fingers retraction and extention animation"
+      ],
+      [
+        "projects/Eve/EveArmAim.jpg",
+        "Here's another render from when I was working on the arm of the render"
+      ],
+      [
+        "projects/Eve/EveBean.mp4",
+        "Early animation showing the 'beanifing' of the model."
+      ],
+      [
+        "projects/Eve/EveLighterSolid.jpg",
+        "Solid view/clay render of the lighter scene"
+      ]
+    ],
+    "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
+  },
+  {
+    "title": "Low-Poly Aircraft Carrier",
+    "image": "Carrier.png",
+    "slideshow": [
+      [
+        "projects/Carrier/CarrierDeckCargo.jpg",
+        "Deck render with the C-2 galaxy"
+      ],
+      [
+        "projects/Carrier/CarrierDeckClose-Up.jpg",
+        "Quick deck render accentuating the fact that I forgot to lower everything all the way down onto the deck"
+      ],
+      [
+        "projects/Carrier/CarrierHangarNew.jpg",
+        "Render of the Hangar with new models + Lighting"
+      ],
+      [
+        "projects/Carrier/CarrierDeck2.jpg",
+        "New feature render with updated models and lights (old one 3 slides later)"
+      ],
+      [
+        "projects/Carrier/CarrierSunset.jpg",
+        "4k cycles render with a sunset hdri that I quickly made."
+      ],
+      [
+        "projects/Carrier/CarrierTop.jpg",
+        "Top down (Orthographic) view of the entire model. This could be used for a minimap when the player is on the upper deck."
+      ],
+      [
+        "projects/Carrier/CarrierDeck1.jpg",
+        "A hyperrealistic render of the deck I did for fun"
+      ],
+      [
+        "projects/Carrier/CarrierTimelapse.mp4",
+        "Timelapse of making the carrier; At least the first parts..."
+      ],
+      [
+        "projects/Carrier/CarrierHangerTop.jpg",
+        "Top Down (Orthographic) view of just the hold/hangar area. Could be used for a map view when player is in lower level."
+      ],
+      [
+        "projects/Carrier/CarrierSmoothWater.jpg",
+        "4k render from a bit earlier in with smooth water made using an ocean modifier."
+      ],
+      [
+        "projects/Carrier/CarrierHangarCycles.jpg",
+        "Cycles render of the inside of the hold/hangar area. Much will be changed here in terms of objects and scaling. (Note that the closest crate is actually brown, just the lighting makes it look oddly colorless)"
+      ],
+      [
+        "projects/Carrier/CarrierHangarSolid.jpg",
+        "Same as previous, just a quick solid view render"
+      ]
+    ],
+    "sketchfab": [
+      [
+        "925f9132968b48b69dc190f9ab19b629",
+        "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+      ]
+    ],
+    "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
+  },
+  {
+    "title": "Low-Poly Lighthouse",
+    "image": "Lighthouse.png",
+    "description": "Though the main aim of this project was to get more practice with low-poly enviroments, it also served as a very helpful segway into a sort of, for lack of a better word, multi-media, type of rendering, a mix of many styles and techniques.[NEWLINE]This project also provided me with lots of helpful practice using hype-realistic rendering on non-realistic scenes. In this render specifically, I used a volumetric for the beam of the lighthouse, something that, though actually low-poly itself, provides some extra depth to the scne, different from the harsh lines on the rest of the landscape"
+  },
+  {
+    "title": "Pixel 4a Concept",
+    "image": "Pixel4a.png",
+    "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept"
+  },
+  {
+    "title": "Vinyl Record Player",
+    "image": "RecordPlayer.png",
+    "description": "Perhaps one of the less fine-tuned projects I've worked on, this model mainly served as practice with image texturing and product design. I worked off of promo art for a small kickstarter retro-modern vinyl record player called the TT8.[NEWLINE]If you look closely at the corners, you can actually see some of the spots where the UV was all mapped to one point because of weirdly-placed bevel modifiers"
+  },
+  {
+    "title": "Snoopy in Cell-Shaded 3D",
+    "image": "Snoopy.png",
+    "description": "Ranking high among my favorite ever projects, making these models was a joy, especially when I switched over from a solid clay-like preview to a realtime renderer, which showed me the true cell-shaded nature of the models.[NEWLINE]Though this is still very much a work in progress, I love the direction in which its' going, and really appreciate the experience I've learned with cartoon styles in 3D modelling softwares and renderers"
+  },
+  {
+    "title": "Nintendo Switch Promo Art",
+    "image": "Switch.png",
+    "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation",
+    "sketchfab": [
+      [
+        "c01af3267244448f99d5d79be002d0ac",
+        "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+      ]
+    ]
+  },
+  {
+    "title": "Xbox Promo Art Remake",
+    "image": "Xbox.png",
+    "description": "This peice was mainly done as a challenge to myself to see how well I could recreate a professional product render. Given that I had no real-life counterpart and nothing but some vauge promotional materials to work off of, I really like the way this turned out. The creases coming from the corners are very visible, something I struggled to get less apparent. Though this model creates more of a V from the corners to the middle, it still represents the model pretty well imo.[NEWLINE]Though I tend to forget it myself, this model is actually only the top part of the xbox, under there it's just a flat bottom, no detailing, which definitely made modelling it easier"
+  },
+  {
+    "title": "Minimalistic Windows 10 Wallpaper",
+    "image": "Windows.png",
+    "description": "This idea came to me when I was working with small windows and was looking at my background a lot. I wondered just how hard it would be to make a minimalistic version of the widely-known Windows 10 wallpaper.[NEWLINE]Though I have to admit I had it a lot easier than those trying to take the pictures in real life, I'm still proud of this idea, and love the way it turned out"
+  },
+  {
+    "title": "Windmill Landscape Art",
+    "image": "Landscape.png",
+    "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond"
+  },
+  {
+    "title": "Aeries Login Art Prototype",
+    "image": "AeriesLogin.png",
+    "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo"
+  },
+  {
+    "title": "Aeries Overview Art Project Page",
+    "image": "AeriesOverview.png",
+    "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it"
+  },
+  {
+    "title": "Sony WF-1000XM3 Earbuds",
+    "image": "WF-1000-XM3.png",
+    "description": "description"
+  }
+]
