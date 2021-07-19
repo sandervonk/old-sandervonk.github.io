@@ -284,3 +284,7 @@ video {
 .oneSketch .sketchDot, .oneSketch .sketchshow-container .prev, .oneSketch .sketchshow-container .next, .oneSketch .sketchshow-container .numbertext {
   display: none !important;
 }
+
+.sketchshow-container {
+  margin-bottom: -7px;
+}
