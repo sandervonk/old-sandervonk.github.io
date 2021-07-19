@@ -129,6 +129,22 @@
       [
         "projects/Snoopy/SnoopyTypewriter.gif",
         "Gif of the typewriter spinning"
+      ],
+      [
+        "projects/Snoopy/SnoopyFlat.jpg",
+        "Single frame render with no cell shading objects, looks a little like a flat-shaded version"
+      ],
+      [
+        "projects/Snoopy/SnoopyFlatRandom.jpg",
+        "Single frame render with Solid->Flat Pass, showing each object's index to give perspective"
+      ],
+      [
+        "projects/Snoopy/SnoopySolid.jpg",
+        "Single frame render with solid shading"
+      ],
+      [
+        "projects/Snoopy/SnoopyWire.jpg",
+        "Single frame render with wireframe overlays, shows the 3D nature of the flat-shaded object"
       ]
     ],
     "description": "Ranking high among my favorite ever projects, making these models was a joy, especially when I switched over from a solid clay-like preview to a realtime renderer, which showed me the true cell-shaded nature of the models.[NEWLINE]Though this is still very much a work in progress, I love the direction in which its' going, and really appreciate the experience I've learned with cartoon styles in 3D modelling softwares and renderers"
