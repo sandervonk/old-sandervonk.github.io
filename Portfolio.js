@@ -235,13 +235,15 @@ function createLightbox() {
     console.log("starting split process")
     for (const descriptionPart of description.split(splitString)) {
       console.log("looping through element:")
-      console.log(descriptionPart)
+      //console.log(descriptionPart)
       if (descriptionPart != description.split(splitString)[0]) {
-        console.log("is NOT first part")
+        console.warn("Is NOT first part")
+        console.log("setting this element to this:")
         var lightboxDescriptionElement = `<div class="lightbox-description">${descriptionPart}</div>`
         document.getElementsByClassName('lightbox-description')[0].parentElement.innerHTML += lightboxDescriptionElement
+        console.log([document.getElementsByClassName('lightbox-description')[document.getElementsByClassName('lightbox-description').length - 1], `${descriptionPart}`])
       } else {
-        console.log("IS first part")
+        console.warn("Is first part")
         console.log("setting this element to this:")
         console.log([document.getElementsByClassName('lightbox-description')[0], descriptionPart])
         document.getElementsByClassName('lightbox-description')[0].textContent = descriptionPart
