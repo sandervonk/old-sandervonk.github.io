@@ -1981,14 +1981,16 @@ ul li {
   display: flex !important;
   flex-flow: column !important;
 }
-h1.text-title.font-aeries.font-bold,
+/*h1.text-title.font-aeries.font-bold,*/
 a.rounded-full.bg-blue {
   transition: 0.2s !important;
 }
+/*
 h1.text-title.font-aeries.font-bold:hover {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc,
     0 20px 30px rgba(0, 0, 0, 0.5);
 }
+*/
 a.rounded-full.bg-blue:hover {
   box-shadow: 0 1px 0 rgb(30, 53, 99), 0 2px 0 rgb(30, 53, 99),
     0 3px 0 rgb(30, 53, 99), 0 4px 0 rgb(30, 53, 99), 0 5px 0 rgb(30, 53, 99),
