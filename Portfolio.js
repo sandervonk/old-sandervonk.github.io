@@ -55,6 +55,10 @@ var projects = `
       ["projects/Carrier/CarrierHangarCycles.jpg", "Cycles render of the inside of the hold/hangar area. Much will be changed here in terms of objects and scaling. (Note that the closest crate is actually brown, just the lighting makes it look oddly colorless)"],
       ["projects/Carrier/CarrierHangarSolid.jpg", "Same as previous, just a quick solid view render"]
     ],
+    "sketchfab": [
+      ["925f9132968b48b69dc190f9ab19b629", "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"],
+      ["925f9132968b48b69dc190f9ab19b629", "caption2"]
+    ],
     "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
   },
   {
@@ -259,6 +263,41 @@ function createLightbox() {
     var sheet = window.document.styleSheets[0];
     sheet.insertRule(`.lightbox-description {text-align: justify !important;}`);
   }
+  for (line of projects) {
+    if (line["title"] == bottomText) {
+
+      //add slideshow dots
+      //only add 'skech'show if needed
+      if (line["sketchfab"] != undefined) {
+
+        dotParent = document.getElementById("sketchDots")
+        for (var i = 1; i < line["sketchfab"].length + 1; i++) {
+          dotParent.innerHTML += `<span class="sketchDot" onclick="currentSketch(${i})"></span>`
+        }
+        var sketchHTML = ``
+        for (sketch of line["sketchfab"]) {
+          var index = line["sketchfab"].indexOf(sketch)
+          caption = ""
+          if (typeof (sketch) == "object") {
+            caption = sketch[1]
+            sketch = sketch[0]
+          }
+          //slideImgHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><div style="background-image: url(${sketch}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
+          sketchHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><iframe title="" class="" width="640" height="360" src="https://sketchfab.com/models/${sketch}/embed" frameborder="0" allow="autoplay; fullscreen; vr" allowvr="" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%;"></iframe><div class=text>${caption}</div></div>`
+
+
+        }
+        document.getElementsByClassName("sketchshow-container")[0].innerHTML = sketchHTML + document.getElementsByClassName("sketchshow-container")[0].innerHTML
+      } else {
+        document.getElementsByClassName("sketchshow-container")[0].remove()
+        document.getElementById("sketchDots").remove()
+        console.log("no sketchfab projects, removed 'sketchshow' elements")
+
+      }
+
+    }
+
+  }
 }
 
 if (window.location.href.includes(`?portfolio-`)) { setTimeout(createLightbox, 200) }
@@ -269,7 +308,9 @@ setTimeout(createProjects, 100)
 
 //slideshow:
 var slideIndex = 1;
+var sketchIndex = 1;
 if (window.location.href.includes(`?portfolio-`)) { setTimeout(showSlides, 210) }
+if (window.location.href.includes(`?portfolio-`)) { setTimeout(showSketch, 210) }
 
 
 
@@ -282,6 +323,15 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+function plusSketch(n) {
+  showSketch(sketchIndex += n);
+}
+
+// Thumbnail image controls
+function currentSketch(n) {
+  showSketch(sketchIndex = n);
+}
+
 
 function showSlides(n) {
   if (arguments.length != 1) { n = 1 }
@@ -300,4 +350,25 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
   } catch { }
+}
+function showSketch(n) {
+  if (arguments.length != 1) { n = 1 }
+  var i;
+  var sketches = document.getElementsByClassName("mySketches");
+  var dots = document.getElementsByClassName("sketchDot");
+  console.warn("running showSketch on group:")
+  console.log(sketches)
+  if (n > sketches.length) { sketchIndex = 1 }
+  if (n < 1) { sketchIndex = sketches.length }
+  for (i = 0; i < sketches.length; i++) {
+    sketches[i].style.display = "none";
+    console.log(["hid sketch num, content", i, sketches[i]])
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  //try {
+  sketches[sketchIndex - 1].style.display = "block";
+  dots[sketchIndex - 1].className += " active";
+  //} catch { }
 }

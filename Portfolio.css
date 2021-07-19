@@ -90,9 +90,19 @@
   margin: auto;
 }
 
+.sketchshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
 
 .mySlides {
+  display: none;
+}
+
+.mySketches {
   display: none;
 }
 
@@ -150,7 +160,7 @@
 
 /* The dots/bullets/indicators */
 
-.dot {
+.dot, .sketchDot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -161,7 +171,7 @@
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover, .sketchDot:hover {
   background-color: #717171;
 }
 
