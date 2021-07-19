@@ -1893,6 +1893,8 @@ ul.menuTransition li {
   padding: 10px;
   cursor: pointer;
   float: right;
+  display: none;
+  /*important ^^*/
 }
 .lightbox-project > .topImg {
   font-size: 1.5rem;

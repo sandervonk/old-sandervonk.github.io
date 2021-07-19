@@ -142,7 +142,7 @@ function disableScroll() {
 
 }
 function toArtstation() {
-  window.location.href = "https://artstation.com"
+  window.location.href = "https://sandercvonk.artstation.com"
 }
 function createLightbox() {
   disableScroll()
