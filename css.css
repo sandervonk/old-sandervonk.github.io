@@ -1994,3 +1994,10 @@ a.rounded-full.bg-blue:hover {
     0 3px 0 rgb(30, 53, 99), 0 4px 0 rgb(30, 53, 99), 0 5px 0 rgb(30, 53, 99),
     0 20px 30px rgba(0, 0, 0, 0.5);
 }
+@media (min-width: 60.1rem) {
+  .Simplify-Container > .container > .flex,
+  .Newtab-Container > .container > .flex{
+    background-size: cover !important;
+  }
+
+}
