@@ -74,4 +74,4 @@ function initComparisons() {
         }
     }
 }
-initComparisons()
+setTimeout(initComparisons, 400)

@@ -158,6 +158,14 @@
     "image": "Switch.png",
     "slideshow": [
       [
+        "projects/Switch/SwitchCombined5.jpg",
+        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
+      ],
+      [
+        "projects/Switch/SwitchCombined4.jpg",
+        "Simple cycles render featuring all the models I made for this (Cycles because it did the shadows and reflections a bit better, and kept the color of the white 'floor')"
+      ],
+      [
         "projects/Switch/SwitchCombined1.jpg",
         "Full Combined Render of the First frame with Screen Space Reflections and Ambient Occlusion"
       ],
@@ -168,14 +176,6 @@
       [
         "projects/Switch/SwitchCombined3.jpg",
         "Full Combined Render of the 3rd frame with Screen Space Reflections and Ambient Occlusion. Unlike the 2 before, this one isn't based on an ad/promotional materials that were actually used, I just made it up to show the detailing I did on the back and top"
-      ],
-      [
-        "projects/Switch/SwitchCombined5.jpg",
-        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
-      ],
-      [
-        "projects/Switch/SwitchCombined4.jpg",
-        "Simple cycles render featuring all the models I made for this (Cycles because it did the shadows and reflections a bit better, and kept the color of the white 'floor')"
       ],
       [
         "projects/Switch/SwitchDark1.jpg",

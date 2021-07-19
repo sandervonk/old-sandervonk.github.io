@@ -43,12 +43,16 @@ var slideIndex = 1;
 var sketchIndex = 1;
 //isnewFromLocal
 function setupPage() {
-  if (window.location.href.includes(`?portfolio-`)) { setTimeout(createLightbox, 200) }
+  if (window.location.href.includes(`?portfolio-`)) {
+    setTimeout(createLightbox, 200);
+    setTimeout(showSlides, 210)
+    setTimeout(showSketch, 210)
+    window.onresize = compareSize()
+  }
   setTimeout(createProjects, 100)
   //setTimeout(updateFiller, 200)
   //window.onresize = updateFiller
-  if (window.location.href.includes(`?portfolio-`)) { setTimeout(showSlides, 210) }
-  if (window.location.href.includes(`?portfolio-`)) { setTimeout(showSketch, 210) }
+
 }
 var onclickFunction = function (name, fn, href3) {
   return (new Function("return function (call) { return function " + name +
@@ -63,7 +67,19 @@ const isMultiple = num => {
     return true
   } else { return false }
 };
+function compareSize() {
+  if (window.innerWidth < 600) {
+    for (element of document.getElementsByClassName("setWidth")) {
+      element.style.width = `${window.innerWidth}px`
+    }
+    for (element of document.getElementsByClassName("setHeight")) {
+      element.style.width = `${window.innerWidth * (9 / 16)}px`
 
+    }
+    console.log("set height and width")
+
+  }
+}
 function createProjects() {
 
   for (project of projects) {
@@ -238,15 +254,27 @@ function createLightbox() {
 
 
 
+function compare([first, last]) {
 
+  firstImg = document.getElementsByClassName("slideshow-container")[0].children[first - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
+  lastImg = document.getElementsByClassName("slideshow-container")[0].children[last - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
+  console.log([firstImg, lastImg])
+  document.getElementsByClassName("img-comp-img")[0].children[0].src = firstImg
+  document.getElementsByClassName("img-comp-img")[1].children[0].src = lastImg
+
+
+  //lastImg = 
+}
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
+var lastclicked = [1, 2]
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  lastclicked = [lastclicked[1], n]
+  compare(lastclicked)
 }
 function plusSketch(n) {
   showSketch(sketchIndex += n);
@@ -298,3 +326,5 @@ function showSketch(n) {
   } catch { }
   //commit: comment above
 }
+
+
