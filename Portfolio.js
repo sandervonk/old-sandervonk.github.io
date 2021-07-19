@@ -296,4 +296,5 @@ function showSketch(n) {
     sketches[sketchIndex - 1].style.display = "block";
     dots[sketchIndex - 1].className += " active";
   } catch { }
+  //commit: comment above
 }
