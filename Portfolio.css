@@ -325,7 +325,6 @@ video {
 
 .img-comp-img img {
   display: block;
-  vertical-align: middle;
   border-top-left-radius: 1rem;
   transition: border-radius ease-in-out 0.5s;
 }
@@ -383,6 +382,11 @@ button {
   button.active#overlay-button {
     background: rgb(31, 122, 207);
     color: white;
+  }
+  /*hotfix for no mobile support*/
+  button,
+  .img-comp-container {
+    display: none;
   }
 }
 button#overlay-button {
