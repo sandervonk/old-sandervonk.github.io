@@ -5,23 +5,17 @@
         {
             "title": "title",
             "image": "image.png",
-            "description": "description"
+            "description": "description[NEWLINE]description part 2"
+            "slideshow": [
+              ["path/to.img", "caption"],
+              ["path/to/other.img", "caption"]
+            ]
+            "sketchfab": [
+              ["model id for embed", "caption"]
+            ]
         }
 */
-/*
-async function loadFile(url) {
-  try {
-    const response = await fetch(url);
-    const data = await response.text();
-    //console.log(Array.from(JSON.parse(data)))
-    return Array.from(JSON.parse(data))
-  } catch (err) {
-    console.error(err);
-  }
-}
 
-var projects = loadFile("Projects.json")
-*/
 
 var multiplyWireframe = false
 function removeCompare() {
