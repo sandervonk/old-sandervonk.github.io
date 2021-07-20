@@ -379,6 +379,8 @@ function plusSlides(n) {
 // Thumbnail image controls, the compare setup also piggybacks off of this function
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  //emergency bypass for if the slide is a video
+  if (document.getElementsByClassName("dot")[n - 1].innerHTML.includes("V")) { n = 88 }
   lastclicked = [lastclicked[1], n]
   compare(lastclicked)
 }
