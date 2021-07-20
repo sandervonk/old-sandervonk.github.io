@@ -68,12 +68,26 @@ $.ajax({
 //functions used by the compare section, buttons can be found on the .html
 
 //code needed for remove button
-function removeCompare() {
-  document.getElementsByClassName("img-comp-container")[0].remove()
+function addCompare() {
+  document.getElementById("compare-button").remove()
+  document.getElementsByClassName("img-comp-container")[0].style.display = ""
   for (button of document.getElementsByTagName("button")) {
-    button.remove()
+    button.style.display = ""
   }
-  document.getElementById("clean-button").remove()
+  document.getElementById("clean-button").style.display = ""
+}
+function removeCompare() {
+  document.getElementById("slideDots").innerHTML += `<span class="dot solid" id="compare-button" onclick="addCompare()" style="
+  width: max-content;
+  border-radius: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  ">Show Compare Window</span>`
+  document.getElementsByClassName("img-comp-container")[0].style.display = "none"
+  for (button of document.getElementsByTagName("button")) {
+    button.style.display = "none"
+  }
+  document.getElementById("clean-button").style.display = "none"
 }
 //code needed for the reset button, resets settings then applies
 function resetCompare() {

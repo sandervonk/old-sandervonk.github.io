@@ -441,3 +441,6 @@ span.dot.active {
   font-size: 35px;
   color: white;
 }
+#compare-button:hover {
+  background: rgb(248, 165, 12);
+}
