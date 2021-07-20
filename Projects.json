@@ -427,12 +427,30 @@
     "image": "AeriesLogin.png",
     "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo",
     "slideshow": [
-      ["projects/SimplifyLogin/SimplifyLoginCombined.png", ""],
-      ["projects/SimplifyLogin/SimplifyLoginEeveeSolid.png", ""],
-      ["projects/SimplifyLogin/SimplifyLoginFlat.png", ""],
-      ["projects/SimplifyLogin/SimplifyLoginSolid.png", ""],
-      ["projects/SimplifyLogin/SimplifyLoginWireframe.png", ""],
-      ["projects/SimplifyLogin/SimplifyLoginWireframeX-Ray.png", ""]
+      [
+        "projects/SimplifyLogin/SimplifyLoginCombined.png",
+        "Fully ray-traced and composited render of the scene, also the cover img"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginEeveeSolid.png",
+        "Eevee render of the scene with matcap lighting"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginFlat.png",
+        "Flat-shaded version of the scene showing the different elements/materials"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginSolid.png",
+        "Solid uncolored version of the scene showing the mesh structure"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginWireframe.png",
+        "Wireframe showing the mesh of everything in view"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginWireframeX-Ray.png",
+        "X-ray wireframe showing everything in view and more!!"
+      ]
     ]
   },
   {
