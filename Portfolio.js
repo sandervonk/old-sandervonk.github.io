@@ -77,7 +77,11 @@ function addCompare() {
   document.getElementById("clean-button").style.display = ""
 }
 function removeCompare() {
-  document.getElementById("slideDots").innerHTML += `<span class="dot solid video-false" id="compare-button" onclick="addCompare()" style="
+  var addStr = ""
+  if (document.getElementsByClassName("video-false").length < 2) {
+    addStr = "compare-hide"
+  }
+  document.getElementById("slideDots").innerHTML += `<span class="dot solid ${addStr}" id="compare-button" onclick="addCompare()" style="
   width: max-content;
   border-radius: 14px;
   padding-left: 5px;
