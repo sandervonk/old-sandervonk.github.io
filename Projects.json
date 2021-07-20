@@ -394,7 +394,33 @@
   {
     "title": "Windmill Landscape Art",
     "image": "Landscape.png",
-    "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond"
+    "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond",
+    "slideshow": [
+      [
+        "projects/Windmill/WindmillCombined.png",
+        "Full combined and composited Cycles render"
+      ],
+      [
+        "projects/Windmill/WindmillSolid.png",
+        "Solid view/clay render of the scene"
+      ],
+      [
+        "projects/Windmill/WindmillSolidColor.png",
+        "Same as previous but with object shading"
+      ],
+      [
+        "projects/Windmill/WindmillFlatShaded.png",
+        "Flat shaded colors from the previous"
+      ],
+      [
+        "projects/Windmill/WindmillSolidEevee.png",
+        "Eevee render of the scene/matcap"
+      ],
+      [
+        "projects/Windmill/WindmillWireframe.png",
+        "Wireframe render of the windmill scene"
+      ]
+    ]
   },
   {
     "title": "Aeries Login Art Prototype",
