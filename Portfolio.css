@@ -310,6 +310,7 @@ video {
   display: block;
   vertical-align: middle;
   border-top-left-radius: 1rem;
+  transition: border-radius ease-in-out .5s;
 }
 
 .img-comp-img:first-of-type img {
@@ -332,8 +333,27 @@ button {
   padding: 1rem;
   border-radius: 0px;
   transition: background-color .1s ease-in;
-  width: 200px;
+  width: 33.33333%;
   margin: 0px !important;
+  transition: border-radius ease-in-out .5s;
+}
+
+@media(max-width: 600px) {
+  button, img {
+    border-radius: 0px !important;
+  }
+}
+
+@media (hover: none), (max-width: 768px), (max-device-width: 768px) {
+  #clean-button {
+    background: rgb(240, 167, 179);
+  }
+  #overlay-button {
+    background: #9fcef5
+  }
+  #remove-button {
+    background: rgb(153, 158, 229);
+  }
 }
 
 button:first-of-type {

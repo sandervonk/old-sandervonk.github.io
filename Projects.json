@@ -158,12 +158,12 @@
     "image": "Switch.png",
     "slideshow": [
       [
-        "projects/Switch/SwitchCombined5.jpg",
-        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
-      ],
-      [
         "projects/Switch/SwitchCombined4.jpg",
         "Simple cycles render featuring all the models I made for this (Cycles because it did the shadows and reflections a bit better, and kept the color of the white 'floor')"
+      ],
+      [
+        "projects/Switch/SwitchCombined5.jpg",
+        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
       ],
       [
         "projects/Switch/SwitchCombined1.jpg",

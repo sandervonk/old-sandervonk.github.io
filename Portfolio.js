@@ -74,6 +74,8 @@ const isMultiple = num => {
   } else { return false }
 };
 function resetCompare() {
+  lastclicked = [88, 88]
+  compare([88, 88])
   multiplyWireframe = false
   document.getElementById("overlay-button").classList = "";
   document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
@@ -82,9 +84,11 @@ function toggleWireframe() {
   if (document.getElementById("overlay-button").classList[0] === "active") {
     document.getElementById("overlay-button").classList = "";
     multiplyWireframe = false
+    compare(lastclicked)
   } else {
     document.getElementById("overlay-button").classList = "active"
     multiplyWireframe = true
+    compare(lastclicked)
   }
 }
 function createProjects() {
@@ -241,7 +245,7 @@ function createLightbox() {
             sketch = sketch[0]
           }
           //slideImgHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><div style="background-image: url(${sketch}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
-          sketchHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><iframe class="" width="640" height="360" src="https://sketchfab.com/models/${sketch}/embed?autostart=1;" frameborder="0" allow="autoplay; fullscreen; vr" allowvr="" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%;"></iframe><div class=text>${caption}</div></div>`
+          sketchHTML += `<div class="fade mySketches"><div class=numbertext>${index + 1} / ${line["sketchfab"].length}</div><iframe class="" width="640" height="360" src="https://sketchfab.com/models/${sketch}/embed?autostart=1;" frameborder="0" allow="autoplay; fullscreen;" allowvr="" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%;"></iframe><div class=text>${caption}</div></div>`
 
 
         }
@@ -270,11 +274,15 @@ function compare([first, last]) {
   if (first != 88) {
     firstImg = document.getElementsByClassName("slideshow-container")[0].children[first - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
   }
-
-  lastImg = document.getElementsByClassName("slideshow-container")[0].children[last - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
+  if (last != 88) {
+    lastImg = document.getElementsByClassName("slideshow-container")[0].children[last - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
+  }
   //console.log([firstImg, lastImg])
   if (first === 88) {
     firstImg = "img/Compare1.png"
+  }
+  if (last === 88) {
+    lastImg = "img/Compare2.png"
   }
   document.getElementsByClassName("img-comp-img")[0].children[0].src = firstImg
   document.getElementsByClassName("img-comp-img")[1].children[0].src = lastImg
@@ -283,7 +291,7 @@ function compare([first, last]) {
   } else {
     document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
   }
-  console.log([first, last])
+
 
 }
 // Next/previous controls
