@@ -186,6 +186,9 @@
 .sketchDot:hover {
   background-color: #467c9b;
 }
+.active.last {
+  background-color: #46919b !important;
+}
 .last {
   background-color: #469b62;
 }
@@ -384,7 +387,7 @@ button {
     color: white;
   }
   .last {
-    background-color: #bbb;
+    background-color: #bbb !important;
   }
   /*hotfix for no mobile support*/
   button,
