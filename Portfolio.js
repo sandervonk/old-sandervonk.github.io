@@ -192,6 +192,10 @@ function createLightbox() {
               renderType = "W"
               renderTypeLong = "wireframe"
             }
+            if (line["slideshow"][i - 1][0].includes(".mp4")) {
+              renderType = "V"
+              renderTypeLong = "video"
+            }
           } catch { }
           //some experimental stuff to make the type show up on the dot
           dotParent.innerHTML += `<span class="dot ${renderTypeLong}" onclick="currentSlide(${i})">${renderType}</span>`

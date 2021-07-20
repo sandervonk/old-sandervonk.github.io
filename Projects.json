@@ -103,7 +103,41 @@
   {
     "title": "Pixel 4a Concept",
     "image": "Pixel4a.png",
-    "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept"
+    "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept",
+    "slideshow": [
+      ["projects/Pixel/PixelAdRender.mp4", ""],
+      [
+        "projects/Pixel/PixelWorkflow.mp4",
+        "A short clip of what it was like working on this project from the first render"
+      ],
+      [
+        "projects/Pixel/PixelBoxAnimation.mp4",
+        "Animation using smooth beziers and a box using the next render!"
+      ],
+      [
+        "projects/Pixel/PixelFrontTransparent.png",
+        "A transparent front render I did of the model to design the box."
+      ],
+      [
+        "projects/Pixel/Pixel3Colors.png",
+        "The cover image for this project, one of my personal favorites, I made 3 verions of this, each with the colors rotated around 1!"
+      ],
+      [
+        "projects/Pixel/PixelWithBox.png",
+        "A render of the phone model with the box made using the image from before!"
+      ],
+      ["projects/Pixel/PixelWonG.png", "Render of the pixel, White on Green"],
+      ["projects/Pixel/PixelBonO.png", "Render of the pixel, Blue on Orange"],
+      ["projects/Pixel/PixelWonG.png", "Render of the pixel, White on Red"],
+      [
+        "projects/Pixel/PixelBox.png",
+        "Render of the front of the box made from my transparent render."
+      ],
+      [
+        "projects/Pixel/PixelBoxEdit.png",
+        "An edited version of the back of a real pixel box I used for the back of MY box."
+      ]
+    ]
   },
   {
     "title": "Vinyl Record Player",
@@ -185,10 +219,7 @@
         "projects/Switch/SwitchDark2.jpg",
         "Specular Pass of the Second Frame (These look like a dark mode version of it in themselves!)"
       ],
-      [
-        "projects/Switch/SwitchDark3.jpg",
-        "Specular Pass of the 3rd Frame"
-      ],
+      ["projects/Switch/SwitchDark3.jpg", "Specular Pass of the 3rd Frame"],
       [
         "projects/Switch/SwitchDiffuse1.jpg",
         "Diffuse Color/Solid Color Pass of the First Frame"
@@ -209,10 +240,7 @@
         "projects/Switch/SwitchSolid2.jpg",
         "Solid View Render of the Second Frame"
       ],
-      [
-        "projects/Switch/SwitchSolid3.jpg",
-        "Solid Pass of the 3rd Frame"
-      ],
+      ["projects/Switch/SwitchSolid3.jpg", "Solid Pass of the 3rd Frame"],
       [
         "projects/Switch/SwitchSolidWire1.jpg",
         "Solid Wireframe Render of the First Frame"
@@ -229,14 +257,8 @@
         "projects/Switch/SwitchWire1.jpg",
         "Wireframe Render of the First Frame"
       ],
-      [
-        "projects/Switch/SwitchWire2.jpg",
-        "Wireframe View of the Second Frame"
-      ],
-      [
-        "projects/Switch/SwitchWire3.jpg",
-        "Wireframe View of the 3rd Frame"
-      ]
+      ["projects/Switch/SwitchWire2.jpg", "Wireframe View of the Second Frame"],
+      ["projects/Switch/SwitchWire3.jpg", "Wireframe View of the 3rd Frame"]
     ],
     "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation",
     "sketchfab": [
