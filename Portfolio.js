@@ -336,7 +336,7 @@ function createLightbox() {
 
   }
   //this line adds a tad of attribution on the bottom of the lightboxes
-  document.getElementsByClassName("lightbox-project")[0].innerHTML += `<div id="attribution" style="font-size:12pt;font-family:Montserrat;color:#aaa;position: relative;bottom: 4px;width: 100%;left: -10px;">Copyright © 2020-2021 Sander Vonk; CC BY-NC-ND 4.0 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cc_by-nc-nd_euro_icon.svg/1280px-Cc_by-nc-nd_euro_icon.svg.png" style="position:relative;height:20px;margin-left:10px;margin-top:2.5px"></div>`
+  document.getElementsByClassName("lightbox-project")[0].innerHTML += `<div id="attribution" style="font-size:12pt;font-family:Montserrat;color:#aaa;position:relative!important;bottom: 4px;width: 100%;left: 0px;">Copyright © 2020-2021 Sander Vonk; CC BY-NC-ND 4.0 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cc_by-nc-nd_euro_icon.svg/1280px-Cc_by-nc-nd_euro_icon.svg.png" style="position:relative;height:20px;margin-left:10px;margin-top:2.5px"></div>`
 }
 
 //this function sets up the images that are 'compared' in the 
