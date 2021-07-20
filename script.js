@@ -18,23 +18,7 @@ function highlightCurrentPage() {
         document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
     }
 }
-function replaceContentWithSelectionWrapper(element) {
-    let selection = window.getSelection().toString();
-    if (selection.length <= 0) { // if selection length is not bigger then 0 we can stop right here
-        return;
-    }
-    // next lines should be self explanatory
-    // get start of string until selection
-    // get the end of string after selection
-    // concatenate all strings back together
-    let selObj = window.getSelection();
-    let selRange = selObj.getRangeAt(0);
-    let originalString = element.innerHTML;
-    let start = originalString.substr(0, selRange.startOffset);
-    let end = originalString.substr(selRange.endOffset);
-    element.innerHTML = start + '<span class="mark-special-selected">' + selection + '</span>' + end;
-    document.body.classList.add('selections-enabled');
-}
+
 
 function clearSelections() {
     var selections = document.querySelectorAll('[original-content]');
