@@ -20,6 +20,10 @@
 var multiplyWireframe = false
 var slideIndex = 1;
 var sketchIndex = 1;
+function toPortfolio() {
+  window.location.href = "Portfolio.html"
+  console.log("ran toPortfolio")
+}
 
 //function that disables the scroll when the lightbox shows
 function disableScroll() {
@@ -276,11 +280,9 @@ function createLightbox() {
   }
 
 
-
+  document.getElementsByClassName("close-mobile")[0].onclick = toPortfolio
   //set the background of the lightbox to link back to the main page
-  document.getElementById('lightbox-overlay').onclick = function toPortfolio() {
-    window.location.href = "Portfolio.html"
-  }
+  document.getElementById('lightbox-overlay').onclick = toPortfolio
   //setup the actual parts of the lightbox itself, starting with the background and title
   document.getElementsByClassName('topImg')[0].style["background"] = featureImg
   document.getElementsByClassName('topImg')[0].innerHTML = bottomText

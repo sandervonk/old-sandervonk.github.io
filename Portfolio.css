@@ -450,3 +450,20 @@ span.dot.active {
 .compare-hide {
   display: none !important;
 }
+.close-mobile {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-bottom-left-radius: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  mix-blend-mode: normal;
+  text-shadow: 0 0 0.3rem white;
+  user-select: none;
+  cursor: pointer;
+  background: #a5a5a54d;
+}
