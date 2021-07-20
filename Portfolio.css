@@ -309,6 +309,11 @@ video {
 .img-comp-img img {
   display: block;
   vertical-align: middle;
+  border-top-left-radius: 1rem;
+}
+
+.img-comp-img:first-of-type img {
+  border-top-right-radius: 1rem;
 }
 
 .img-comp-slider {
@@ -321,4 +326,35 @@ video {
   background-color: #2196F3;
   opacity: 0.7;
   border-radius: 50%;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 0px;
+  transition: background-color .1s ease-in;
+  width: 200px;
+  margin: 0px !important;
+}
+
+button:first-of-type {
+  border-bottom-left-radius: 1rem;
+}
+
+button:last-of-type {
+  border-bottom-right-radius: 1rem;
+}
+
+button:hover {
+  background: rgb(86, 158, 224);
+  color: white;
+}
+
+#clean-button:hover {
+  background: rgb(224, 95, 86);
+  color: white;
+}
+
+button.active {
+  background: rgb(61, 151, 236);
+  color: white;
 }

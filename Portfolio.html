@@ -109,12 +109,15 @@
     transform: translateX(-50%);
 ">
       <div class="img-comp-img">
-        <img src="https://via.placeholder.com/1920x1080" width="600px" height="338px" class="setWidth setHeight">
+        <img src="img/Compare1.png" width="600px" height="338px" class="setWidth setHeight">
       </div>
       <div class="img-comp-img img-comp-overlay" style="border-right: solid thin darkcyan;">
-        <img src="https://via.placeholder.com/1920x1080" width="600px" height="338px" class="setWidth setHeight">
+        <img src="img/Compare2.png" width="600px" height="338px" class="setWidth setHeight">
       </div>
     </div>
+    <button id="overlay-button" onclick="toggleWireframe()">Overlay Wireframes?</button><button id="clean-button"
+      onclick="resetCompare()">Reset</button><button id="remove-button" onclick="removeCompare()">Hide
+      Comparisons</button>
   </div>
   <div id="bodyParent" style="padding: 50px; padding-top: 120px; background: lightblue">
     <!--BODY CONTENT HERE-->

@@ -13,7 +13,7 @@ async function loadFile(url) {
   try {
     const response = await fetch(url);
     const data = await response.text();
-    console.log(Array.from(JSON.parse(data)))
+    //console.log(Array.from(JSON.parse(data)))
     return Array.from(JSON.parse(data))
   } catch (err) {
     console.error(err);
@@ -23,7 +23,14 @@ async function loadFile(url) {
 var projects = loadFile("Projects.json")
 */
 
-
+var multiplyWireframe = false
+function removeCompare() {
+  document.getElementsByClassName("img-comp-container")[0].remove()
+  for (button of document.getElementsByTagName("button")) {
+    button.remove()
+  }
+  document.getElementById("clean-button").remove()
+}
 var projects = ""
 $.ajax({
   url: 'Projects.json',
@@ -36,7 +43,7 @@ $.ajax({
   },
   error: function (err) {
     console.error("error: could not load projects.json :(")
-    console.log(err)
+    //console.log(err)
   }
 });
 var slideIndex = 1;
@@ -45,9 +52,8 @@ var sketchIndex = 1;
 function setupPage() {
   if (window.location.href.includes(`?portfolio-`)) {
     setTimeout(createLightbox, 200);
-    setTimeout(showSlides, 210)
-    setTimeout(showSketch, 210)
-    window.onresize = compareSize()
+    setTimeout(showSlides, 210);
+    setTimeout(showSketch, 210);
   }
   setTimeout(createProjects, 100)
   //setTimeout(updateFiller, 200)
@@ -67,17 +73,18 @@ const isMultiple = num => {
     return true
   } else { return false }
 };
-function compareSize() {
-  if (window.innerWidth < 600) {
-    for (element of document.getElementsByClassName("setWidth")) {
-      element.style.width = `${window.innerWidth}px`
-    }
-    for (element of document.getElementsByClassName("setHeight")) {
-      element.style.width = `${window.innerWidth * (9 / 16)}px`
-
-    }
-    console.log("set height and width")
-
+function resetCompare() {
+  multiplyWireframe = false
+  document.getElementById("overlay-button").classList = "";
+  document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
+}
+function toggleWireframe() {
+  if (document.getElementById("overlay-button").classList[0] === "active") {
+    document.getElementById("overlay-button").classList = "";
+    multiplyWireframe = false
+  } else {
+    document.getElementById("overlay-button").classList = "active"
+    multiplyWireframe = true
   }
 }
 function createProjects() {
@@ -90,7 +97,7 @@ function createProjects() {
 
   }
   if (!isMultiple(projects.length)) {
-    console.log("unspreadable num of projects, adding element")
+    //console.log("unspreadable num of projects, adding element")
     document.getElementsByClassName('flex-container')[0].innerHTML += `<div class="flex-item" id="portfolio-filler" style="background-image: url(img/Artstation.png)"> </div>`
     document.getElementById('portfolio-filler').onclick = toArtstation
   }
@@ -151,8 +158,8 @@ function createLightbox() {
             slideImgHTML += `<div class="fade mySlides"><div class=numbertext>${index + 1} / ${line["slideshow"].length}</div><div style="background-image: url(${slideImg}) !important; width: 100%"></div><div class=text>${caption}</div></div>`
           } else {
             fileExtention = slideImg.split('.')[slideImg.split('.').length - 1]
-            console.log(`treating slide element as video of extention: ${fileExtention}`)
-            console.log(projects.indexOf(line["slideshow"]))
+            //console.log(`treating slide element as video of extention: ${fileExtention}`)
+            //console.log(projects.indexOf(line["slideshow"]))
             slideImgHTML += `<div class="fade mySlides"><div class=numbertext>${index + 1} / ${line["slideshow"].length}</div><video autoplay loop controls disableVolume disablePictureInPicture controlsList="nodownload" width=100%><source src="${slideImg}" type="video/${fileExtention}">Sorry, your browser doesn't support embedded videos.</video><div class=text>${caption}</div></div>`
           }
 
@@ -161,9 +168,14 @@ function createLightbox() {
       } else {
         document.getElementsByClassName("slideshow-container")[0].remove()
         document.getElementById("slideDots").remove()
-
       }
-
+      if (line["slideshow"] === undefined || line["slideshow"].length < 2) {
+        document.getElementsByClassName("img-comp-container")[0].remove()
+        for (button of document.getElementsByTagName("button")) {
+          button.remove()
+        }
+        document.getElementById("clean-button").remove()
+      }
     }
 
   }
@@ -182,20 +194,20 @@ function createLightbox() {
   for (splitString of splitStrings) { }
   if (description.split(splitString).length > 1) {
     foundSplit = true
-    console.log("starting split process")
+    //console.log("starting split process")
     for (const descriptionPart of description.split(splitString)) {
-      console.log("looping through element:")
-      //console.log(descriptionPart)
+      //console.log("looping through element:")
+      ////console.log(descriptionPart)
       if (descriptionPart != description.split(splitString)[0]) {
-        console.warn("Is NOT first part")
-        console.log("setting this element to this:")
+        //console.warn("Is NOT first part")
+        //console.log("setting this element to this:")
         var lightboxDescriptionElement = `<div class="lightbox-description">${descriptionPart}</div>`
         document.getElementsByClassName('lightbox-description')[0].parentElement.innerHTML += lightboxDescriptionElement
-        console.log([document.getElementsByClassName('lightbox-description')[document.getElementsByClassName('lightbox-description').length - 1], `${descriptionPart}`])
+        //console.log([document.getElementsByClassName('lightbox-description')[document.getElementsByClassName('lightbox-description').length - 1], `${descriptionPart}`])
       } else {
-        console.warn("Is first part")
-        console.log("setting this element to this:")
-        console.log([document.getElementsByClassName('lightbox-description')[0], descriptionPart])
+        //console.warn("Is first part")
+        //console.log("setting this element to this:")
+        //console.log([document.getElementsByClassName('lightbox-description')[0], descriptionPart])
         document.getElementsByClassName('lightbox-description')[0].textContent = descriptionPart
 
       }
@@ -203,8 +215,8 @@ function createLightbox() {
     }
 
   }
-  console.log("found split ?")
-  console.log(foundSplit)
+  //console.log("found split ?")
+  //console.log(foundSplit)
   if (!foundSplit) {
     var sheet = window.document.styleSheets[0];
     sheet.insertRule(`.lightbox-description {text-align: justify !important;}`);
@@ -240,7 +252,7 @@ function createLightbox() {
       } else {
         document.getElementsByClassName("sketchshow-container")[0].remove()
         document.getElementById("sketchDots").remove()
-        console.log("no sketchfab projects, removed 'sketchshow' elements")
+        //console.log("no sketchfab projects, removed 'sketchshow' elements")
 
       }
 
@@ -255,21 +267,30 @@ function createLightbox() {
 
 
 function compare([first, last]) {
+  if (first != 88) {
+    firstImg = document.getElementsByClassName("slideshow-container")[0].children[first - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
+  }
 
-  firstImg = document.getElementsByClassName("slideshow-container")[0].children[first - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
   lastImg = document.getElementsByClassName("slideshow-container")[0].children[last - 1].children[1].style["background-image"].replace(`url("`, "").replace(`")`, "")
-  console.log([firstImg, lastImg])
+  //console.log([firstImg, lastImg])
+  if (first === 88) {
+    firstImg = "img/Compare1.png"
+  }
   document.getElementsByClassName("img-comp-img")[0].children[0].src = firstImg
   document.getElementsByClassName("img-comp-img")[1].children[0].src = lastImg
+  if (multiplyWireframe && lastImg.includes("Wire")) {
+    document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "multiply"
+  } else {
+    document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
+  }
+  console.log([first, last])
 
-
-  //lastImg = 
 }
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-var lastclicked = [1, 2]
+var lastclicked = [1, 88]
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -309,13 +330,13 @@ function showSketch(n) {
   var i;
   var sketches = document.getElementsByClassName("mySketches");
   var dots = document.getElementsByClassName("sketchDot");
-  console.warn("running showSketch on group:")
-  console.log(sketches)
+  //console.warn("running showSketch on group:")
+  //console.log(sketches)
   if (n > sketches.length) { sketchIndex = 1 }
   if (n < 1) { sketchIndex = sketches.length }
   for (i = 0; i < sketches.length; i++) {
     sketches[i].style.display = "none";
-    console.log(["hid sketch num, content", i, sketches[i]])
+    //console.log(["hid sketch num, content", i, sketches[i]])
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
