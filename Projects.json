@@ -435,6 +435,21 @@
   {
     "title": "Sony WF-1000XM3 Earbuds",
     "image": "WF-1000-XM3.png",
-    "description": "description"
+    "description": "description",
+    "slideshow": [
+      [
+        "projects/Earbuds/EarbudsAnimation.mp4",
+        "A short promotional animation I made featuring the model: Breakdown & final comp."
+      ],
+      ["projects/Earbuds/Earbuds1.mp4", "Wireframe render of the animation"],
+      ["projects/Earbuds/Earbuds2.mp4", "AO/Clay render of the model"],
+      [
+        "projects/Earbuds/Earbuds3.mp4",
+        "Solid flat-shaded render of the model"
+      ],
+      ["projects/Earbuds/Earbuds4.mp4", "Solid render of the model"],
+      ["projects/Earbuds/Earbuds5.mp4", "Solid matcap render of the model"],
+      ["projects/Earbuds/Earbuds6.mp4", "Full composited Eevee render"]
+    ]
   }
 ]
