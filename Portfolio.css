@@ -383,6 +383,9 @@ button {
     background: rgb(31, 122, 207);
     color: white;
   }
+  .last {
+    background-color: #bbb;
+  }
   /*hotfix for no mobile support*/
   button,
   .img-comp-container {
