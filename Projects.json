@@ -98,7 +98,49 @@
   {
     "title": "Low-Poly Lighthouse",
     "image": "Lighthouse.png",
-    "description": "Though the main aim of this project was to get more practice with low-poly enviroments, it also served as a very helpful segway into a sort of, for lack of a better word, multi-media, type of rendering, a mix of many styles and techniques.[NEWLINE]This project also provided me with lots of helpful practice using hype-realistic rendering on non-realistic scenes. In this render specifically, I used a volumetric for the beam of the lighthouse, something that, though actually low-poly itself, provides some extra depth to the scne, different from the harsh lines on the rest of the landscape"
+    "description": "Though the main aim of this project was to get more practice with low-poly enviroments, it also served as a very helpful segway into a sort of, for lack of a better word, multi-media, type of rendering, a mix of many styles and techniques.[NEWLINE]This project also provided me with lots of helpful practice using hype-realistic rendering on non-realistic scenes. In this render specifically, I used a volumetric for the beam of the lighthouse, something that, though actually low-poly itself, provides some extra depth to the scne, different from the harsh lines on the rest of the landscape",
+    "slideshow": [
+      [
+        "projects/Lighthouse/LighthouseSunset.png",
+        "New sunset render of the redesigned island and lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseDay.png",
+        "New day render of the redesigned island and lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseEevee.png",
+        "Eevee render of the island, shows color and AO, but not shading"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolid.png",
+        "Solid view/clay render of the scene"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolidColor.png",
+        "Solid view render of the scene with color"
+      ],
+      [
+        "projects/Lighthouse/LighthouseWireframe.png",
+        "Wireframe X-Ray render of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolidWireframe.png",
+        "Wireframe render of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseAO.png",
+        "Ambient occlusion render of the lightouse scene"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSunset2",
+        "Old sunset version of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseDay2",
+        "Old day version of the lighthouse"
+      ]
+    ]
   },
   {
     "title": "Pixel 4a Concept",
