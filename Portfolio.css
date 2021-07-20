@@ -372,8 +372,22 @@ button {
   #remove-button {
     background: rgb(153, 158, 229);
   }
+  button {
+    font-size: 0.7rem;
+    color: white;
+    text-shadow: 0 0 4px black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  button.active#overlay-button {
+    background: rgb(31, 122, 207);
+    color: white;
+  }
 }
-
+button#overlay-button {
+  transition: background-color 0.5s;
+}
 button:first-of-type {
   border-bottom-left-radius: 1rem;
 }

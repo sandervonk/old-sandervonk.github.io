@@ -191,7 +191,31 @@
   {
     "title": "Vinyl Record Player",
     "image": "RecordPlayer.png",
-    "description": "Perhaps one of the less fine-tuned projects I've worked on, this model mainly served as practice with image texturing and product design. I worked off of promo art for a small kickstarter retro-modern vinyl record player called the TT8.[NEWLINE]If you look closely at the corners, you can actually see some of the spots where the UV was all mapped to one point because of weirdly-placed bevel modifiers"
+    "description": "Perhaps one of the less fine-tuned projects I've worked on, this model mainly served as practice with image texturing and product design. I worked off of promo art for a small kickstarter retro-modern vinyl record player called the TT8.[NEWLINE]If you look closely at the corners, you can actually see some of the spots where the UV was all mapped to one point because of weirdly-placed bevel modifiers",
+    "slideshow": [
+      [
+        "projects/Record/RecordAO.png",
+        "Ambient occlusion pass of the record render"
+      ],
+      [
+        "projects/Record/RecordDenoise.png",
+        "Denoise intensity pass of the render that brings out the grooves."
+      ],
+      [
+        "projects/Record/RecordEeveeSolid.png",
+        "Eevee solid view render of the scene"
+      ],
+      ["projects/Record/RecordCombined.png", "Final combined render pass"],
+      ["projects/Record/RecordShadow.png", "Shadow Pass"],
+      [
+        "projects/Record/RecordUV.png",
+        "UV pass that shows how the textures are mapped onto the object"
+      ],
+      [
+        "projects/Record/RecordWireframe.png",
+        "Wireframe pass that shows the object's actual mesh structure"
+      ]
+    ]
   },
   {
     "title": "Snoopy in Cell-Shaded 3D",
