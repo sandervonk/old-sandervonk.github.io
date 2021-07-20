@@ -77,7 +77,7 @@ function addCompare() {
   document.getElementById("clean-button").style.display = ""
 }
 function removeCompare() {
-  document.getElementById("slideDots").innerHTML += `<span class="dot solid" id="compare-button" onclick="addCompare()" style="
+  document.getElementById("slideDots").innerHTML += `<span class="dot solid video-false" id="compare-button" onclick="addCompare()" style="
   width: max-content;
   border-radius: 14px;
   padding-left: 5px;
@@ -221,7 +221,7 @@ function createLightbox() {
             }
           } catch { }
           //some experimental stuff to make the type show up on the dot
-          dotParent.innerHTML += `<span class="dot ${renderTypeLong}" onclick="currentSlide(${i})">${renderType}</span>`
+          dotParent.innerHTML += `<span class="dot ${renderTypeLong} video-${renderTypeLong === "video"}" onclick="currentSlide(${i})">${renderType}</span>`
         }
 
         //at this point we know that there is at least one image, so we can start to set up the actual elements in the parent container

@@ -447,3 +447,6 @@ span.dot.active {
 #compare-button:hover {
   background: rgb(248, 165, 12);
 }
+.video-false:first-of-type#compare-button {
+  display: none !important;
+}
