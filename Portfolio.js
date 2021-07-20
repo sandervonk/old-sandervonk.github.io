@@ -200,6 +200,10 @@ function createLightbox() {
               renderType = "V"
               renderTypeLong = "video"
             }
+            if (line["slideshow"][i - 1][0].includes(".gif")) {
+              renderType = "G"
+              renderTypeLong = "gif"
+            }
           } catch { }
           //some experimental stuff to make the type show up on the dot
           dotParent.innerHTML += `<span class="dot ${renderTypeLong}" onclick="currentSlide(${i})">${renderType}</span>`
@@ -349,6 +353,9 @@ function compare([first, last]) {
   //if the lines are at their defaults, we set them back to the default images, used by the reset function
   if (first === 88) {
     firstImg = "img/Compare1.png"
+    try {
+      document.getElementsByClassName("last")[0].className = document.getElementsByClassName("last")[0].className.replace(' last', '')
+    } catch { }
   }
   if (last === 88) {
     lastImg = "img/Compare2.png"
@@ -416,7 +423,8 @@ function showSlides(n) {
 
   //does the opposite of next for old slide
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" last", "");
+    dots[i].className = dots[i].className.replace(" active", " last");
   }
 
   //this part makes the current slide's dot highlighted/darker than others and makes sure that the slide shows correctly; 

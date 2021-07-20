@@ -184,7 +184,10 @@
 .active,
 .dot:hover,
 .sketchDot:hover {
-  background-color: #717171;
+  background-color: #467c9b;
+}
+.last {
+  background-color: #469b62;
 }
 
 /* Fading animation */
@@ -406,5 +409,11 @@ span.dot {
   color: black;
 }
 span.dot.active {
+  color: white;
+}
+.img-comp-slider {
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 35px;
   color: white;
 }
