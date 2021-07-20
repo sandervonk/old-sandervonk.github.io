@@ -425,7 +425,15 @@
   {
     "title": "Aeries Login Art Prototype",
     "image": "AeriesLogin.png",
-    "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo"
+    "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo",
+    "slideshow": [
+      ["projects/SimplifyLogin/SimplifyLoginCombined.png", ""],
+      ["projects/SimplifyLogin/SimplifyLoginEeveeSolid.png", ""],
+      ["projects/SimplifyLogin/SimplifyLoginFlat.png", ""],
+      ["projects/SimplifyLogin/SimplifyLoginSolid.png", ""],
+      ["projects/SimplifyLogin/SimplifyLoginWireframe.png", ""],
+      ["projects/SimplifyLogin/SimplifyLoginWireframeX-Ray.png", ""]
+    ]
   },
   {
     "title": "Aeries Overview Art Project Page",
