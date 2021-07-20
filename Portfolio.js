@@ -36,7 +36,7 @@ var onclickFunction = function (name, fn, href3) {
 
 //quick function to avoid using an href for the filler link
 function toArtstation() {
-  window.location.href = "https://sandercvonk.artstation.com"
+  window.location.href = "https://artstation.com"
 }
 
 //small function used to see if a filler is needed on the projects grid
