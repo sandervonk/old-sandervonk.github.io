@@ -173,9 +173,13 @@ function createLightbox() {
         //grab the empty parent element for the slide-dots from the html and add the correct number of children
         dotParent = document.getElementById("slideDots")
         for (var i = 1; i < line["slideshow"].length + 1; i++) {
-          var renderType = "R"
-          var renderTypeLong = "render"
+          var renderType = "O"
+          var renderTypeLong = "other"
           try {
+            if (line["slideshow"][i - 1][0].includes("render") || line["slideshow"][i - 1][0].includes("Combined")) {
+              renderType = "R"
+              renderTypeLong = "render"
+            }
             if (line["slideshow"][i - 1][0].includes("Diffuse")) {
               renderType = "D"
               renderTypeLong = "diffuse"
@@ -190,7 +194,7 @@ function createLightbox() {
             }
           } catch { }
           //some experimental stuff to make the type show up on the dot
-          dotParent.innerHTML += `<span class="dot" onclick="currentSlide(${i})">${renderType}</span>`
+          dotParent.innerHTML += `<span class="dot ${renderTypeLong}" onclick="currentSlide(${i})">${renderType}</span>`
         }
 
         //at this point we know that there is at least one image, so we can start to set up the actual elements in the parent container
