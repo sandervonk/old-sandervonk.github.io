@@ -176,7 +176,7 @@ function createLightbox() {
           var renderType = "O"
           var renderTypeLong = "other"
           try {
-            if (line["slideshow"][i - 1][0].includes("render") || line["slideshow"][i - 1][0].includes("Combined")) {
+            if (line["slideshow"][i - 1][0].includes("render") || line["slideshow"][i - 1][0].includes("Combined") || (line["slideshow"][i - 1][0].includes(".jpg") && line["slideshow"][i - 1][0].includes("Eve"))) {
               renderType = "R"
               renderTypeLong = "render"
             }
