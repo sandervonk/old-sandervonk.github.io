@@ -274,7 +274,28 @@
   {
     "title": "Xbox Promo Art Remake",
     "image": "Xbox.png",
-    "description": "This peice was mainly done as a challenge to myself to see how well I could recreate a professional product render. Given that I had no real-life counterpart and nothing but some vauge promotional materials to work off of, I really like the way this turned out. The creases coming from the corners are very visible, something I struggled to get less apparent. Though this model creates more of a V from the corners to the middle, it still represents the model pretty well imo.[NEWLINE]Though I tend to forget it myself, this model is actually only the top part of the Xbox, under there it's just a flat bottom, no detailing, which definitely made modelling it easier"
+    "description": "This peice was mainly done as a challenge to myself to see how well I could recreate a professional product render. Given that I had no real-life counterpart and nothing but some vauge promotional materials to work off of, I really like the way this turned out. The creases coming from the corners are very visible, something I struggled to get less apparent. Though this model creates more of a V from the corners to the middle, it still represents the model pretty well imo.[NEWLINE]Though I tend to forget it myself, this model is actually only the top part of the Xbox, under there it's just a flat bottom, no detailing, which definitely made modelling it easier",
+
+    "slideshow": [
+      [
+        "projects/Xbox/XboxMixed.png",
+        "A small collage of different passes for this render, it was a small project."
+      ],
+      [
+        "projects/Xbox/Xbox1080.png",
+        "Full size render of the model, matches the promotional materials"
+      ],
+      [
+        "projects/Xbox/XboxGloss.png",
+        "Gloss render of the model, shows just how sharp some of the lines in the cover are, whoops!"
+      ],
+      ["projects/Xbox/XboxDiffuse.png", "Diffuse pass of the model"],
+      ["projects/Xbox/XboxAO.png", "Ambient Occlusion render of the model."],
+      [
+        "projects/Xbox/XboxWireframe.png",
+        "Solid view wireframe render of the model, shows just how shader-based it was!"
+      ]
+    ]
   },
   {
     "title": "Minimalistic Windows 10 Wallpaper",
