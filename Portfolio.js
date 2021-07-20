@@ -116,6 +116,7 @@ function setupPage() {
     setTimeout(createLightbox, 200);
     setTimeout(showSlides, 210);
     setTimeout(showSketch, 210);
+    setTimeout(removeCompare, 310);
   }
   //things that are always needed, but still require the json file
   setTimeout(createProjects, 100)
