@@ -184,6 +184,10 @@ function createLightbox() {
               renderType = "D"
               renderTypeLong = "diffuse"
             }
+            if (line["slideshow"][i - 1][0].includes("AO")) {
+              renderType = "AO"
+              renderTypeLong = "ambient-occlusion"
+            }
             if (line["slideshow"][i - 1][0].includes("Solid")) {
               renderType = "S"
               renderTypeLong = "solid"

@@ -300,7 +300,22 @@
   {
     "title": "Minimalistic Windows 10 Wallpaper",
     "image": "Windows.png",
-    "description": "This idea came to me when I was working with small windows and was looking at my background a lot. I wondered just how hard it would be to make a minimalistic version of the widely-known Windows 10 wallpaper.[NEWLINE]Though I have to admit I had it a lot easier than those trying to take the pictures in real life, I'm still proud of this idea, and love the way it turned out"
+    "description": "This idea came to me when I was working with small windows and was looking at my background a lot. I wondered just how hard it would be to make a minimalistic version of the widely-known Windows 10 wallpaper.[NEWLINE]Though I have to admit I had it a lot easier than those trying to take the pictures in real life, I'm still proud of this idea, and love the way it turned out",
+    "slideshow": [
+      [
+        "projects/Windows/WindowsSolidX-Ray.png",
+        "X-Ray View of the model, pretty simple to say the least"
+      ],
+      [
+        "projects/Windows/WindowsSolid.png",
+        "Solid view, no X-Ray, shows everything is in shaders"
+      ],
+      ["projects/Windows/WindowsCombined.png", "Full rendered image"],
+      [
+        "projects/Windows/WindowsWireframe.png",
+        "Wireframe render that shows the structure"
+      ]
+    ]
   },
   {
     "title": "Windmill Landscape Art",
