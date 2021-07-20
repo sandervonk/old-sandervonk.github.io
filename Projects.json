@@ -105,7 +105,10 @@
     "image": "Pixel4a.png",
     "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept",
     "slideshow": [
-      ["projects/Pixel/PixelAdRender.mp4", ""],
+      [
+        "projects/Pixel/PixelAdRender.mp4",
+        "One of my favorite animations to date, there's also a looping version of this that I can't seem to find!!"
+      ],
       [
         "projects/Pixel/PixelWorkflow.mp4",
         "A short clip of what it was like working on this project from the first render"
