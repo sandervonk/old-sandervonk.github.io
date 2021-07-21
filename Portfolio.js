@@ -414,6 +414,7 @@ function compare([first, last]) {
   } else {
     //if it wasnt a wireframe image, or if the option isn't enabled, we just set the blend mode back to 'unset'
     document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
+    document.getElementsByClassName("img-comp-overlay")[0].children[0].style["filter"] = ""
     console.log("set to unset")
   }
 }
