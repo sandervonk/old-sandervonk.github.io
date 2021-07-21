@@ -18,6 +18,7 @@
 
 //setup some needed variables
 var multiplyWireframe = false
+var screenOverlay = false
 var slideIndex = 1;
 var sketchIndex = 1;
 function toPortfolio() {
@@ -102,8 +103,10 @@ function resetCompare() {
   lastclicked = [88, 88]
   compare([88, 88])
   multiplyWireframe = false
+  screenOverlay = false
   document.getElementById("overlay-button").classList = "";
   document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
+  document.getElementsByClassName("img-comp-overlay")[0].children[0].style["filter"] = ""
 }
 //code needed for the overlay toggle button
 function toggleWireframe() {
@@ -117,7 +120,17 @@ function toggleWireframe() {
     compare(lastclicked)
   }
 }
-
+function toggleScreen() {
+  if (document.getElementById("screen-button").classList[0] === "active") {
+    document.getElementById("screen-button").classList = "";
+    screenOverlay = false
+    compare(lastclicked)
+  } else {
+    document.getElementById("screen-button").classList = "active"
+    screenOverlay = true
+    compare(lastclicked)
+  }
+}
 //things that need to be setup for the lightbox to work, in a function so they can be called once json is able to load
 function setupPage() {
   if (window.location.href.includes(`?portfolio-`)) {
@@ -390,11 +403,18 @@ function compare([first, last]) {
   if (multiplyWireframe && lastImg.includes("Wire")) {
 
     //if it is, we set the blend mode of the overlayed image to 'multiply,' which lets the black and white wireframe always show, well as long as the bg isn't black
-    document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "multiply"
-  } else {
+    if (!screenOverlay) {
+      document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "multiply"
+      document.getElementsByClassName("img-comp-overlay")[0].children[0].style["filter"] = ""
+    } else {
+      document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "screen"
+      document.getElementsByClassName("img-comp-overlay")[0].children[0].style["filter"] = "invert(1)"
+    }
 
+  } else {
     //if it wasnt a wireframe image, or if the option isn't enabled, we just set the blend mode back to 'unset'
     document.getElementsByClassName("img-comp-overlay")[0].children[0].style["mix-blend-mode"] = "unset"
+    console.log("set to unset")
   }
 }
 

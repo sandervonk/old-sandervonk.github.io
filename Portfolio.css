@@ -352,9 +352,12 @@ button {
   padding: 1rem;
   border-radius: 0px;
   transition: background-color 0.1s ease-in;
-  width: 33.33333%;
+  width: 25%;
   margin: 0px !important;
   transition: border-radius ease-in-out 0.5s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (max-width: 600px) {
@@ -378,12 +381,13 @@ button {
     font-size: 0.7rem;
     color: white;
     text-shadow: 0 0 4px black;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
   button.active#overlay-button {
     background: rgb(31, 122, 207);
+    color: white;
+  }
+  button.active#screen-button {
+    background: rgb(15, 167, 48);
     color: white;
   }
   .last {
@@ -398,7 +402,8 @@ button {
     display: none;
   }
 }
-button#overlay-button {
+button#overlay-button,
+button#screen-button {
   transition: background-color 0.5s;
 }
 button:first-of-type {
@@ -418,7 +423,15 @@ button:hover {
   background: rgb(224, 95, 86);
   color: white;
 }
+#screen-button:hover {
+  background: rgb(17, 219, 152);
+  color: white;
+}
 
+button#screen-button.active {
+  background: rgb(103, 196, 66);
+  color: white;
+}
 button.active {
   background: rgb(61, 151, 236);
   color: white;
