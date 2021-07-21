@@ -110,7 +110,7 @@
   display: none;
 }
 
-/* Next & previous buttons */
+/* Next & previous #bodyContent buttons */
 
 .prev,
 .next {
@@ -128,7 +128,7 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "next #bodyContent button" to the right */
 
 .next {
   right: 0;
@@ -243,7 +243,7 @@ video::-webkit-media-controls-volume-slider {
   display: none;
 }
 
-video::-webkit-media-controls-mute-button {
+video::-webkit-media-controls-mute-#bodyContent button {
   display: none;
 }
 
@@ -348,7 +348,7 @@ video {
   border-radius: 50%;
 }
 
-button {
+#bodyContent button {
   padding: 1rem;
   border-radius: 0px;
   transition: background-color 0.1s ease-in;
@@ -361,32 +361,35 @@ button {
 }
 
 @media (max-width: 600px) {
-  button,
+  #bodyContent button,
   img {
     border-radius: 0px !important;
   }
 }
 
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {
-  #clean-button {
+  #clean-#bodyContent button {
     background: rgb(240, 167, 179);
   }
-  #overlay-button {
+  #overlay-#bodyContent button {
     background: #9fcef5;
   }
-  #remove-button {
+  #remove-#bodyContent button {
     background: rgb(153, 158, 229);
   }
-  button {
+  #compare-#bodyContent button,
+  #clean-#bodyContent button,
+  #overlay-#bodyContent button,
+  #screen-#bodyContent button {
     font-size: 0.7rem;
     color: white;
     text-shadow: 0 0 4px black;
   }
-  button.active#overlay-button {
+  #bodyContent button.active#overlay-#bodyContent button {
     background: rgb(31, 122, 207);
     color: white;
   }
-  button.active#screen-button {
+  #bodyContent button.active#screen-#bodyContent button {
     background: rgb(15, 167, 48);
     color: white;
   }
@@ -395,14 +398,14 @@ button {
   }
   /*hotfix for no mobile support*/
 
-  #compare-button,
-  #clean-button,
-  #overlay-button,
-  #screen-button,
+  #compare-#bodyContent button,
+  #clean-#bodyContent button,
+  #overlay-#bodyContent button,
+  #screen-#bodyContent button,
   .img-comp-container {
     display: none;
   }
-  #compare-button {
+  #compare-#bodyContent button {
     display: none;
   }
   /*
@@ -411,37 +414,37 @@ button {
   }
   */
 }
-button#overlay-button,
-button#screen-button {
+#bodyContent button#overlay-#bodyContent button,
+#bodyContent button#screen-#bodyContent button {
   transition: background-color 0.5s;
 }
-button:first-of-type {
+#overlay-#bodyContent button {
   border-bottom-left-radius: 1rem;
 }
 
-button:last-of-type {
+#bodyContent button:last-of-type {
   border-bottom-right-radius: 1rem;
 }
 
-button:hover {
+#bodyContent button:hover {
   background: rgb(86, 158, 224);
   color: white;
 }
 
-#clean-button:hover {
+#clean-#bodyContent button:hover {
   background: rgb(224, 95, 86);
   color: white;
 }
-#screen-button:hover {
+#screen-#bodyContent button:hover {
   background: rgb(17, 219, 152);
   color: white;
 }
 
-button#screen-button.active {
+#bodyContent button#screen-#bodyContent button.active {
   background: rgb(103, 196, 66);
   color: white;
 }
-button.active {
+#bodyContent button.active {
   background: rgb(61, 151, 236);
   color: white;
 }
@@ -466,7 +469,7 @@ span.dot.active {
   font-size: 35px;
   color: white;
 }
-#compare-button:hover {
+#compare-#bodyContent button:hover {
   background: rgb(248, 165, 12);
 }
 .compare-hide {
@@ -489,7 +492,7 @@ span.dot.active {
   cursor: pointer;
   background: #a5a5a54d;
 }
-button {
+#bodyContent button {
   cursor: pointer;
 }
 ::-webkit-scrollbar-track {

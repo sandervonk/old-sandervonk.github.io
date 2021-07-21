@@ -134,13 +134,13 @@ function toggleScreen() {
 //things that need to be setup for the lightbox to work, in a function so they can be called once json is able to load
 function setupPage() {
   if (window.location.href.includes(`?portfolio-`)) {
-    setTimeout(createLightbox, 200);
-    setTimeout(showSlides, 210);
-    setTimeout(showSketch, 210);
-    setTimeout(removeCompare, 310);
+    setTimeout(createLightbox, 400);
+    setTimeout(showSlides, 410);
+    setTimeout(showSketch, 410);
+    setTimeout(removeCompare, 410);
   }
   //things that are always needed, but still require the json file
-  setTimeout(createProjects, 100)
+  setTimeout(createProjects, 350)
 }
 
 //function to create the projects page
@@ -170,6 +170,8 @@ function createProjects() {
     var href2 = `?portfolio-${title2.replace(/[^a-z0-9]/gmi, "-")}`
     var genFunc = function name() { };
     genFunc = onclickFunction(`${title2.replace(/[^a-z0-9]/gmi, "")}`, genFunc, href2)
+    console.log("generated onclick function for element:", href2)
+    console.log(genFunc)
     document.getElementById(`portfolio-${title2.replace(/[^a-z0-9]/gmi, "-")}`).onclick = genFunc
   }
 }
