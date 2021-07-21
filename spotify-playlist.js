@@ -56,3 +56,5 @@ function albumSet() {
     setupSpotify()
 }
 setTimeout(setupSpotify)
+//note: look into this in the futrue:
+//https://spotify-player.herokuapp.com/spotify-player.js
