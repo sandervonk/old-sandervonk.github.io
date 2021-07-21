@@ -401,9 +401,11 @@ button {
   #compare-button {
     display: none;
   }
+  /*
   #spotify-container {
     display: none !important;
   }
+  */
 }
 button#overlay-button,
 button#screen-button {
