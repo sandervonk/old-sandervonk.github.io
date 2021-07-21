@@ -60,4 +60,4 @@ function albumSet() {
     document.getElementById("spotify-player").style.filter = ""
     setupSpotify()
 }
-setTimeout(setupSpotify)
+setTimeout(setupSpotify, 300)
