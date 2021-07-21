@@ -456,7 +456,33 @@
   {
     "title": "Aeries Overview Art Project Page",
     "image": "AeriesOverview.png",
-    "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it"
+    "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it",
+    "slideshow": [
+      [
+        "projects/Simplify/SimplifyCyclesCombined.png",
+        "Fully composited render; cover image for this project"
+      ],
+      [
+        "projects/Simplify/SimplifyEeveeSolid.png",
+        "Correctly lit Eevee render of the scene"
+      ],
+      [
+        "projects/Simplify/SimplifySolid.png",
+        "Solid/clay render of the entire scene"
+      ],
+      [
+        "projects/Simplify/SimplifyViewportSolid.png",
+        "Soft-lit solid render of the scene"
+      ],
+      [
+        "projects/Simplify/SimplifyWireframe.png",
+        "Wireframe view of the scene showing all the mesh components"
+      ],
+      [
+        "projects/Simplify/SimplifyWireframeX-Ray.png",
+        "X-ray wireframe view of the scene showing the full mesh structure"
+      ]
+    ]
   },
   {
     "title": "Sony WF-1000XM3 Earbuds",
