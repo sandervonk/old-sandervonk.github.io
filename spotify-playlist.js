@@ -1,5 +1,10 @@
+//just add these two lines to your html <head>:
 
-//spotify iframe
+//<script src="spotify-playlist.js"></script>
+//<link rel="stylesheet" href="spotify-playlist.css"/>
+
+
+
 function setupSpotify() {
     if (document.getElementById("spotify-container") === null) {
         console.log("adding element")
@@ -56,5 +61,3 @@ function albumSet() {
     setupSpotify()
 }
 setTimeout(setupSpotify)
-//note: look into this in the futrue:
-//https://spotify-player.herokuapp.com/spotify-player.js
