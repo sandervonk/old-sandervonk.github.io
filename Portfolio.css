@@ -486,3 +486,7 @@ span.dot.active {
 button {
   cursor: pointer;
 }
+::-webkit-scrollbar-track {
+  opacity: 1 !important;
+  background-color: white;
+}
