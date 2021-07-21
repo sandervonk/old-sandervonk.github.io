@@ -394,7 +394,11 @@ button {
     background-color: #bbb !important;
   }
   /*hotfix for no mobile support*/
-  button,
+
+  #compare-button,
+  #clean-button,
+  #overlay-button,
+  #screen-button,
   .img-comp-container {
     display: none;
   }
