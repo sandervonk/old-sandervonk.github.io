@@ -480,7 +480,7 @@
         "X-ray wireframe showing everything in view and more!!"
       ]
     ],
-    "sketchfab": ["780d9d8c33cf4a0f83a737aca4d7326b", ""]
+    "sketchfab": [["780d9d8c33cf4a0f83a737aca4d7326b", ""]]
   },
   {
     "title": "Aeries Overview Art Project Page",
@@ -513,8 +513,10 @@
       ]
     ],
     "sketchfab": [
-      "5729bc85a76e4f2b9ab17ad0ba5a6943",
-      "Made as a small graphic for an ongoing project of mine, this graphic attempts to adapt the style of actual Aeries marketing materials in a rendered medium"
+      [
+        "5729bc85a76e4f2b9ab17ad0ba5a6943",
+        "Made as a small graphic for an ongoing project of mine, this graphic attempts to adapt the style of actual Aeries marketing materials in a rendered medium"
+      ]
     ]
   },
   {
