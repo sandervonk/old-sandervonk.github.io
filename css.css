@@ -2018,3 +2018,6 @@ a.rounded-full.bg-blue:hover {
   background-color: #00000000;
   border: solid #ffffff55 2px;
 }
+.text-neutral-600.mt-2 {
+  text-shadow: 0 0 4px black;
+}
