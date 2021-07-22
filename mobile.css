@@ -46,7 +46,8 @@
     padding: 0px !important;
     padding-top: 90px !important;
   }
-  .Newtab-Container {
+  .Newtab-Container,
+  .Spotify-container {
     padding: 0px !important;
     padding-top: 30px !important;
   }
