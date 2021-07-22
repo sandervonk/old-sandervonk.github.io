@@ -75,4 +75,4 @@ function initComparisons() {
         }
     }
 }
-setTimeout(initComparisons, 500)
+

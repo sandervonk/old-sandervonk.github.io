@@ -74,6 +74,7 @@ $.ajax({
 
 //code needed for remove button
 function addCompare() {
+  setTimeout(initComparisons, 200)
   document.getElementById("compare-button").remove()
   document.getElementsByClassName("img-comp-container")[0].style.display = ""
   for (button of document.getElementsByTagName("button")) {
