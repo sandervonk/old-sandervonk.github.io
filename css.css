@@ -2000,21 +2000,21 @@ a.rounded-full.bg-blue:hover {
 }
 @media (min-width: 60.1rem) {
   .Simplify-Container > .container > .flex,
-  .Newtab-Container > .container > .flex{
+  .Newtab-Container > .container > .flex,
+  .Spotify-Container > .container > .flex {
     background-size: cover !important;
   }
-
 }
 #display-flex {
-  background-color: #ffffff55; 
-  border-radius: 3px; 
-  padding-left: 3px; 
+  background-color: #ffffff55;
+  border-radius: 3px;
+  padding-left: 3px;
   padding-right: 3px;
   cursor: help !important;
   border: solid transparent 2px;
   user-select: none;
 }
 #display-flex:hover {
-  background-color: #00000000; 
+  background-color: #00000000;
   border: solid #ffffff55 2px;
 }
