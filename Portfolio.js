@@ -134,13 +134,13 @@ function toggleScreen() {
 //things that need to be setup for the lightbox to work, in a function so they can be called once json is able to load
 function setupPage() {
   if (window.location.href.includes(`?portfolio-`)) {
-    setTimeout(createLightbox, 400);
-    setTimeout(showSlides, 410);
-    setTimeout(showSketch, 410);
-    setTimeout(removeCompare, 410);
+    setTimeout(createLightbox, 450);
+    setTimeout(showSlides, 460);
+    setTimeout(showSketch, 460);
+    setTimeout(removeCompare, 460);
   }
   //things that are always needed, but still require the json file
-  setTimeout(createProjects, 350)
+  setTimeout(createProjects, 400)
 }
 
 //function to create the projects page
