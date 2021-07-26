@@ -2005,6 +2005,9 @@ a.rounded-full.bg-blue:hover {
     background-size: cover !important;
   }
 }
+.Spotify-Container {
+  background-color: #f6f8fa !important;
+}
 #display-flex {
   background-color: #ffffff55;
   border-radius: 3px;
