@@ -1987,6 +1987,7 @@ ul li {
 a.rounded-full.bg-blue {
   transition: 0.2s !important;
 }
+
 /*
 h1.text-title.font-aeries.font-bold:hover {
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc,
@@ -2023,4 +2024,15 @@ a.rounded-full.bg-blue:hover {
 }
 .text-neutral-600.mt-2 {
   text-shadow: 0 0 4px black;
+}
+.bg-grey {
+  background-color: rgb(160, 160, 160);
+}
+a.rounded-full.bg-grey:hover {
+  box-shadow: 0 1px 0 rgb(117, 117, 117), 0 2px 0 rgb(117, 117, 117),
+    0 3px 0 rgb(117, 117, 117), 0 4px 0 rgb(117, 117, 117),
+    0 5px 0 rgb(117, 117, 117), 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+a.rounded-full.bg-grey {
+  transition: 0.2s !important;
 }
