@@ -27,9 +27,13 @@
 .about-nav-sections-fade {
   width: 15rem;
   position: absolute;
-  height: 15rem;
+  height: 10rem;
   user-select: none;
   pointer-events: none;
+  transform: scale(2);
+  border-radius: 8rem;
+  z-index: 998;
+  background: linear-gradient(#f6f8fa, transparent);
 }
 .about-nav-sections {
   transition: transform 0.5s ease-in-out;
