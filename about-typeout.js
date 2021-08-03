@@ -1,6 +1,6 @@
 
 const carouselText = [
-    { text: "Sander", color: "orange" },
+    { text: "Sander", color: "#007c7d" },
     { text: "a coder", color: "green" },
     { text: "an artist", color: "red" },
     { text: "But mostly, I'm just me", color: "black" }
