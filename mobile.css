@@ -1,4 +1,17 @@
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {
+  .about-section-text {
+    width: 150%;
+    flex-shrink: 0;
+  }
+  .mobile-text {
+    display: unset !important;
+  }
+  .desktop-text {
+    display: none !important;
+  }
+  .about-parent {
+    width: 100% !important;
+  }
   .lightbox-project {
     max-height: unset !important;
   }

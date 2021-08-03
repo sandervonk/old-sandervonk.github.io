@@ -2036,3 +2036,19 @@ a.rounded-full.bg-grey:hover {
 a.rounded-full.bg-grey {
   transition: 0.2s !important;
 }
+.mobile-text {
+  display: none !important;
+}
+.desktop-text {
+  display: unset !important;
+}
+.desktop-text::before,
+.desktop-text::after {
+  content: "\00a0";
+  display: unset;
+}
+.mobile-text::after,
+.mobile-text::before {
+  content: "\00a0";
+  display: unset;
+}

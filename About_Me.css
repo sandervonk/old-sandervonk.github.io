@@ -298,3 +298,6 @@ img {
   display: block;
   flex-grow: 1;
 }
+.section-text {
+  display: block !important;
+}
