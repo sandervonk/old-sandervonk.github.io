@@ -125,6 +125,7 @@
 .about-text {
   margin-top: 30px;
 }
+/*
 @media (max-width: 50rem) {
   .about-content .about-title-img {
     width: 100%;
@@ -137,5 +138,62 @@
     text-align: justify;
     padding: 1rem 0;
     line-height: unset;
+  }
+}
+.typing-container {
+}
+*/
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.typing-container * {
+  font-family: "Darker Grotesque", sans-serif;
+}
+.typing-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  top: 100px;
+  transform: scale(2);
+}
+#feature-text {
+  margin-left: 5px;
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: black;
+  margin-left: 2px;
+  animation: blink 0.6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }

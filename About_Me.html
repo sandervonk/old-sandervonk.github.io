@@ -20,6 +20,8 @@
     />
     <script src="script.js"></script>
     <script src="about.js"></script>
+    <script src="src/jquery-3.6.0.min.js"></script>
+    <script src="about-typeout.js"></script>
   </head>
   <body style="background: #f6f8fa">
     <div
@@ -80,25 +82,32 @@
         </ul>
       </div>
     </div>
+    <div class="typing-container">
+      <span id="sentence-extra" class="sentence">Hi, </span>
+      <span class="input-cursor" id="cursor-extra" style="visibility: hidden;"></span>
+      <span id="sentence" class="sentence">I'm </span>
+      <span id="feature-text"></span>
+      <span class="input-cursor" id="cursor-main"></span>
+    </div>
     <div class="about-parent">
       <div class="about-content">
         <div class="about-nav">
         <img class="about-title-img" src="img/profile.png">
         <div class="about-nav-sections-fade"></div>
         <div class="about-nav-sections rotate3">
-          <div class="about-nav-section" id="js-section-rotate5">
+          <div class="about-nav-section" id="about-intro">
             <img class="about-nav-section-img" src="img/profile.png">
           </div>
-          <div class="about-nav-section" id="js-section-rotate4">
+          <div class="about-nav-section" id="about-coding">
             <img class="about-nav-section-img" src="img/profile.png">
           </div>
-          <div class="about-nav-section" id="js-section-rotate3">
+          <div class="about-nav-section" id="about-life">
             <img class="about-nav-section-img" src="img/profile.png">
           </div>
-          <div class="about-nav-section" id="js-section-rotate2">
+          <div class="about-nav-section" id="about-3D">
             <img class="about-nav-section-img" src="img/profile.png">
           </div>
-          <div class="about-nav-section" id="js-section-rotate1">
+          <div class="about-nav-section" id="about-why">
             <img class="about-nav-section-img" src="img/profile.png">
           </div>
       </div>
