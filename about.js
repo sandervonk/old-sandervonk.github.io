@@ -1,23 +1,23 @@
 const section_data = JSON.parse(`{
     "about-intro": {
         "title": "Introduction",
-        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. "
+        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. Enjoy and watch for bugs!"
     },
     "about-coding": {
         "title": "Coding",
-        "text": ""
+        "text": "Though I've always been better at 3D modelling than coding, lately I've begun to spend a little more time on it, focusing mainly on CSS, JS, and HTML. That's one of the main reasons this site came to be. I've always lived in a household where computer science is a common topic, and thus did do some light C+ / Python projects when I was younger, but my knowledge of those languages is still minimal. I've really enjoyed being able to learn more about coding, and this past year + of quarantine was definitly a good, albeit unwanted, oppurtunity to actually apply that. I hope you enjoy skimming or reading this site as much as I enjoyed making it, but please keep in mind that there will most definitely be bugs."
     },
     "about-life": {
         "title": "My Life",
-        "text": ""
+        "text": "Coming soon!"
     },
     "about-3D": {
         "title": "3D & Blender",
-        "text": ""
+        "text": "I did a lot of Tinkercad and Sketchbox moelling when I was in elementary school, but the bast 2-4 years have been especially full of 3D projects, as I discovered <a href='https://blender.org'>Blender</a>, an excellent 3D modelling and CAD tool that I've used mostly for art-type projects. No one project that I have posted over on my <a href='Portfolio.html'>Portfolio</a> is really my favorite, but each provided an oppurtunity to learn a new skill, especially those where I attempted to replicate a real product or animated feature. I really started working with Blender a lot when v2.8 was released, with a completly reworked interface that was a lot easier to use. To even get a mediocre sense of how to use Blender, I watched and worked along with numerous tutorials, espcially those by Blender Guru (<a href='https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U'>the donut series</a>) and Ducky3D's abstract ones."
     },
     "about-why": {
         "title": "Why: this site and more",
-        "text": ""
+        "text": "This site originally started as a way for me to learn more about practical uses for CSS and JS. While it certainly was helpful, the projects that I worked on while also developing this site were really what allowed me to be more flexible. If you head over to the <a href='Projects.html'>Projects</a> tab, you'll see some of the things that I've been working on in the past year. They're all in various stages of completion, and also range in usefulness. At this time, I'd say the one that's gotten the most support and time poured into it would be the Simplify Aeries extention, which I started developing before I even created this site! Though I am certainly biased, I strongly recommend checking it out, as all the features do help with day to day SIS use for students. Thanks for reading and enjoy your stay!"
     }
 }`)
 function setSection(sectionNum) {

@@ -1,4 +1,18 @@
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {
+  .about-section-title {
+    text-align: center !important;
+  }
+
+  .typing-container {
+    width: 100%;
+  }
+  .about-parent {
+    transform: scale(0.7) !important;
+    top: 0px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    position: relative;
+  }
   .about-section-text {
     width: 150%;
     flex-shrink: 0;
