@@ -72,7 +72,11 @@ async function carousel(carouselList, eleRef) {
             await deleteSentence(eleRef);
             await typeSentence(carouselList[i].text, eleRef);
             await waitForMs(1000)
-            await deleteSentence(eleRef)
+            document.getElementById("feature-text").style.background = "rgba(173, 216, 230, 0.6)"
+            await waitForMs(300)
+            document.getElementById("feature-text").innerText = "";
+            document.getElementById("feature-text").style.background = "transparent"
+            await waitForMs(300)
             await typeSentence("Welcome and enjoy!", eleRef);
             break;
         }

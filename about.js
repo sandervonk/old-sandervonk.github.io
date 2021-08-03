@@ -3,6 +3,8 @@ window.addEventListener("load", function () {
     sections = document.getElementsByClassName("about-nav-sections")[0].children
     sections[0].addEventListener("click", function () {
         document.getElementsByClassName("about-nav-sections")[0].className = "about-nav-sections rotate5"
+        //document.getElementsByClassName("about-section-text").innerText =
+        //document.getElementsByClassName("about-section-title").innerText = 
     })
     sections[1].addEventListener("click", function () {
         document.getElementsByClassName("about-nav-sections")[0].className = "about-nav-sections rotate4"
@@ -18,3 +20,26 @@ window.addEventListener("load", function () {
     })
 
 })
+
+const section_data = JSON.parse(`{
+    "about-intro": {
+        "title": "",
+        "text": ""
+    },
+    "about-coding": {
+        "title": "",
+        "text": ""
+    },
+    "about-life": {
+        "title": "",
+        "text": ""
+    },
+    "about-3D": {
+        "title": "",
+        "text": ""
+    },
+    "about-why": {
+        "title": "",
+        "text": ""
+    }
+}`)
