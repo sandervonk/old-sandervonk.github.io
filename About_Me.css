@@ -294,3 +294,7 @@ img {
   font-weight: 500;
   margin-bottom: 1rem;
 }
+.about-section-text {
+  display: block;
+  flex-grow: 1;
+}
