@@ -7,15 +7,24 @@
     width: 100%;
   }
   .about-parent {
-    transform: scale(0.7) !important;
-    top: 0px !important;
-    padding-top: 0px !important;
     margin-top: 0px !important;
-    position: relative;
+    position: unset;
+    top: unset;
+    transform: none;
+  }
+  .about-content {
+    margin: auto !important;
   }
   .about-section-text {
-    width: 150%;
-    flex-shrink: 0;
+    max-width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .about-section-title {
+    font-size: 1.5rem !important;
+  }
+  .about-nav {
+    transform: scale(0.7);
   }
   .mobile-text {
     display: unset !important;
