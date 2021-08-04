@@ -2,6 +2,9 @@
   .about-section-title {
     text-align: center !important;
   }
+  .about-section-text {
+    justify-content: space-around !important;
+  }
 
   .typing-container {
     width: 100%;

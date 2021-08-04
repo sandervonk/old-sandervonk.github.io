@@ -237,6 +237,7 @@ img {
 
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @keyframes blink {
   0% {
     opacity: 1;
@@ -252,7 +253,7 @@ img {
   }
 }
 .typing-container * {
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Poppins", sans-serif !important;
 }
 .typing-container {
   position: relative;
@@ -263,12 +264,20 @@ img {
   top: 100px;
   transform: scale(2);
 }
+.about-section-text,
+.about-section-title {
+  width: max-content;
+}
+body > div.about-parent > div.about-section-text {
+  display: flex !important;
+}
 #feature-text {
-  margin-left: 7px;
+  margin-left: 2px;
   font-family: "Source Code Pro", monospace;
   border-radius: 0.2rem;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
+  padding-left: 3px;
 }
 .input-cursor {
   display: inline-block;
@@ -367,10 +376,14 @@ body
   }
 }
 .about-parent {
+  /*width: fit-content;*/
   position: absolute;
   top: 50%;
   transform: translateY(-10rem) translateX(-50%);
   margin-left: auto;
   margin-right: auto;
   left: 50%;
+}
+.about-section-title {
+  width: 100% !important;
 }
