@@ -10,7 +10,7 @@
     width: 100%;
   }
   .about-parent {
-    margin-top: 0px !important;
+    margin-top: 40px !important;
     position: unset;
     top: unset;
     transform: none;
@@ -86,7 +86,7 @@
     padding-top: 90px !important;
   }
   .Newtab-Container,
-  .Spotify-container {
+  .Spotify-Container {
     padding: 0px !important;
     padding-top: 30px !important;
   }
