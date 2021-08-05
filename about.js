@@ -1,7 +1,7 @@
 const section_data = JSON.parse(`{
     "about-intro": {
         "title": "Introduction",
-        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. Enjoy and watch for bugs!"
+        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. Take a look at my <a href=''>portfolio</a> page for my 3D/Art projects, the <a href='Projects.html'>projects</a> page for code-based projects, mostly extentions. The <a href='Contact.html'>contact</a> and <a href='https://github.com/sandervonk'>code</a> pages serve mainly as gateways to other resources. Enjoy and watch for bugs!"
     },
     "about-coding": {
         "title": "Coding",
