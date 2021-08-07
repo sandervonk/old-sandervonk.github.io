@@ -1481,6 +1481,14 @@ ul li:hover {
   background-color: rgba(173, 216, 230, 0.5);
   transition: background-color 0.25s !important;
 }
+ul#menu li {
+  animation: spreadMenu 0.65s ease-in-out forwards;
+}
+@keyframes spreadMenu {
+  to {
+    padding: 0px 3%;
+  }
+}
 ul.menuTransition li {
   padding: 0px 3%;
   transition: all 0.65s ease-in-out;

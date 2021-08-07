@@ -1,6 +1,4 @@
 function transition() {
-    document.getElementById('menu').classList += " menuTransition"
-    console.log(`ran function 'transition'`)
     highlightCurrentPage()
     setupSelection()
     if (window.location.href.includes("Contact.html")) {
