@@ -1,7 +1,7 @@
 const section_data = JSON.parse(`{
     "about-intro": {
         "title": "Introduction",
-        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. Take a look at my <a href=''>portfolio</a> page for my 3D/Art projects, the <a href='Projects.html'>projects</a> page for code-based projects, mostly extentions. The <a href='Contact.html'>contact</a> and <a href='https://github.com/sandervonk'>code</a> pages serve mainly as gateways to other resources. Enjoy and watch for bugs!"
+        "text": "Welcome! As you may have noticed so far, this is my site! Working on it has been a ongoing project for a couple months now, though my time/effort was by no means distributed equally among all the pages. Take a look at my <a href=''>portfolio</a> page for my 3D/Art projects, the <a href='Projects.html'>projects</a> page for code-based projects, mostly extensions. The <a href='Contact.html'>contact</a> and <a href='https://github.com/sandervonk'>code</a> pages serve mainly as gateways to other resources. Enjoy and watch for bugs!"
     },
     "about-coding": {
         "title": "Coding",
@@ -13,7 +13,7 @@ const section_data = JSON.parse(`{
     },
     "about-3D": {
         "title": "3D & Blender",
-        "text": "I did a lot of Tinkercad and Sketchbox moelling when I was in elementary school, but the bast 2-4 years have been especially full of 3D projects, as I discovered <a href='https://blender.org'>Blender</a>, an excellent 3D modelling and CAD tool that I've used mostly for art-type projects. No one project that I have posted over on my <a href='Portfolio.html'>Portfolio</a> is really my favorite, but each provided an oppurtunity to learn a new skill, especially those where I attempted to replicate a real product or animated feature. I really started working with Blender a lot when v2.8 was released, with a completly reworked interface that was a lot easier to use. To even get a mediocre sense of how to use Blender, I watched and worked along with numerous tutorials, espcially those by Blender Guru (<a href='https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U'>the donut series</a>) and Ducky3D's abstract ones."
+        "text": "I did a lot of Tinkercad and Sketchbox moelling when I was in elementary school, but the past 2-4 years have been especially full of 3D projects, as I discovered <a href='https://blender.org'>Blender</a>, an excellent 3D modelling and CAD tool that I've used mostly for art-type projects. No one project that I have posted over on my <a href='Portfolio.html'>Portfolio</a> is really my favorite, but each provided an oppurtunity to learn a new skill, especially those where I attempted to replicate a real product or animated feature. I really started working with Blender a lot when v2.8 was released, with a completly reworked interface that was a lot easier to use. To even get a mediocre sense of how to use Blender, I watched and worked along with numerous tutorials, espcially those by Blender Guru (<a href='https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U'>the donut series</a>) and Ducky3D's abstract ones."
     },
     "about-why": {
         "title": "Why: this site and more",
