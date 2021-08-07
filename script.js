@@ -68,7 +68,7 @@ function setLinks() {
 
 
 }
-
+//totally not an easter egg
 var allowedKeys = {
     37: 'left',
     38: 'up',
