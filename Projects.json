@@ -93,6 +93,14 @@
       [
         "projects/Carrier/CarrierHangarSolid.jpg",
         "Same as previous, just a quick solid view render"
+      ],
+      [
+        "projects/Carrier/CarrierOrtho1.png",
+        "Orthographic map view (with pretty bad lighting xD)"
+      ],
+      [
+        "projects/Carrier/CarrierOrtho2.png",
+        "Orthographic map view for the hangar (even worse lighting)"
       ]
     ],
     "sketchfab": [
