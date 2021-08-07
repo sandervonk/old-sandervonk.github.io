@@ -125,3 +125,6 @@
     max-height: 300px;
   }
 }
+img[src="img/SiteName.png"] {
+  cursor: pointer;
+}

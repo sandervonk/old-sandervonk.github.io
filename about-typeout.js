@@ -3,7 +3,7 @@ const carouselText = [
     { text: "Sander", color: "#007c7d" },
     { text: "a coder", color: "green" },
     { text: "an artist", color: "red" },
-    { text: "But mostly, I'm just me", color: "black" }
+    { text: "But mostly, I'm just having fun", color: "black" }
 ];
 
 $(document).ready(async function () {
