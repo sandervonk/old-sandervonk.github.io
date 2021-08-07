@@ -108,4 +108,4 @@ function activateCheats() {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-window.onload = transition
+window.addEventListener("load", transition)
