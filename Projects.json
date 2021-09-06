@@ -238,6 +238,18 @@
     "image": "Snoopy.png",
     "slideshow": [
       [
+        "projects/Snoopy/SnoopyFullRender.png",
+        "A full render showing both Snoopy and Charlie Brown, but not any of the extra scenery that can be a bit much"
+      ],
+      [
+        "projects/Snoopy/SnoopyBusyRender.png",
+        "Full render that takes inspiration from the Peanuts movie and the original comics, a bit busy for my taste, but everything there is based on a real source (the 'The Tree')"
+      ],
+      [
+        "projects/Snoopy/SnoopyHandsFinal.png",
+        "Final render without Charlie brown, showcasing the recent additions of hands + more to the main Snoopy model!"
+      ],
+      [
         "projects/Snoopy/SnoopyTimelapse.mp4",
         "Workflow TImelapse consisting of the majority of the project, up until I finished the typewriter!"
       ],
