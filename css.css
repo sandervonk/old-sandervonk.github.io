@@ -2010,7 +2010,8 @@ a.rounded-full.bg-blue:hover {
 @media (min-width: 60.1rem) {
   .Simplify-Container > .container > .flex,
   .Newtab-Container > .container > .flex,
-  .Spotify-Container > .container > .flex {
+  .Spotify-Container > .container > .flex,
+  .VITE-Container > .container > .flex {
     background-size: cover !important;
   }
 }

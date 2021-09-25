@@ -1,0 +1,507 @@
+@font-face {
+  font-family: "Boxed Round";
+  src: local("Boxed Round Extra light"), local("Boxed-Round-Extra-light"),
+    url("font/BoxedRoundExtralight.woff2") format("woff2"),
+    url("font/BoxedRoundExtralight.woff") format("woff"),
+    url("font/BoxedRoundExtralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Revx Neue";
+  src: local("Revx Neue Semi Bold"), local("Revx-Neue-Semi-Bold"),
+    url("font/RevxNeueDemo-SemiBold.ttf") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*2 sections*/
+
+@media (min-width: 30rem) {
+  #portfolio-filler {
+    background-size: 150% 100% !important;
+    transition: background-size 0.4s ease-out !important;
+  }
+  #portfolio-filler:hover {
+    background-size: 180% 120% !important;
+  }
+}
+
+/*3 sections*/
+
+@media (aspect-ratio: 1/1) {
+  #portfolio-filler {
+    background-size: 100% 100% !important;
+    transition: background-size 0.4s ease-out !important;
+  }
+  #portfolio-filler:hover {
+    background-size: 120% 120% !important;
+  }
+}
+
+/*4 sections*/
+
+@media (min-width: 60.1rem) {
+  #portfolio-filler {
+    background-size: 100% 100% !important;
+    transition: background-size 0.4s ease-out !important;
+  }
+  #portfolio-filler:hover {
+    background-size: 120% 120% !important;
+  }
+}
+
+/*
+#portfolio-filler::before {
+  content: "Art";
+  font-family: "Boxed Round";
+  font-family: "Revx Neue";
+  font-weight: bold;
+
+  text-transform: uppercase;
+  height: 100% !important;
+  width: 100% !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+  padding-top: unset !important;
+  z-index: 1;
+  opacity: 0 !important;
+  text-align: center;
+  vertical-align: bottom !important;
+}
+#portfolio-filler::after {
+  content: "Station";
+  font-family: "Boxed Round";
+  text-transform: uppercase;
+}
+#portfolio-filler:hover::before,
+#portfolio-filler:hover::after {
+  opacity: 1 !important;
+}
+*/
+
+/*slideshow:*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.sketchshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+}
+
+.mySketches {
+  display: none;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin: 8px 0px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow: black 0 0 3px;
+  user-select: none;
+  padding-top: 0px !important;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot,
+.sketchDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover,
+.sketchDot:hover {
+  background-color: #467c9b;
+}
+.active.last {
+  background-color: #46919b !important;
+}
+.last {
+  background-color: #469b62;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.prev {
+  left: 0px !important;
+}
+
+#slideDots {
+  padding-bottom: 10px !important;
+}
+
+.fade.mySlides .text,
+.numbertext {
+  text-shadow: black 0px 0px 3px;
+}
+
+.fade.mySlides .text {
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
+}
+
+.lightbox-project {
+  display: none;
+}
+
+/*start johan stuff*/
+
+.lightbox-description {
+  font-variant: unset !important;
+  text-transform: none !important;
+  font-size: 13pt !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/*end dumb stuff*/
+
+.flex-item {
+  cursor: pointer;
+}
+
+.lightbox-project {
+  /*max-height: 700px !important;*/
+  height: 80% !important;
+  max-height: 1200px;
+}
+
+video {
+  height: unset;
+  aspect-ratio: 16/9;
+  background: lightgrey;
+}
+
+.lightbox-project .mySlides div:nth-child(2) {
+  aspect-ratio: 16/9 !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  aspect-ratio: 16/9;
+  background: lightgrey;
+  border: solid thin lightgrey !important;
+  border-left-style: none !important;
+  border-right-style: none !important;
+}
+
+.lightbox-project .mySlides div:nth-child(2),
+video {
+  background: #717171;
+}
+
+.oneSketch .sketchDot,
+.oneSketch .sketchshow-container .prev,
+.oneSketch .sketchshow-container .next,
+.oneSketch .sketchshow-container .numbertext {
+  display: none !important;
+}
+
+.sketchshow-container {
+  margin-bottom: -7px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-comp-container {
+  position: relative;
+  height: 200px;
+  /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  border-top-left-radius: 1rem;
+  transition: border-radius ease-in-out 0.5s;
+}
+
+.img-comp-img:first-of-type img {
+  border-top-right-radius: 1rem;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196f3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+#remove-button,
+#clean-button,
+#overlay-button,
+#screen-button {
+  padding: 1rem;
+  border-radius: 0px;
+  transition: background-color 0.1s ease-in;
+  width: 25%;
+  margin: 0px !important;
+  transition: border-radius ease-in-out 0.5s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  #compare-button,
+  #clean-button,
+  #overlay-button,
+  #screen-button,
+  img {
+    border-radius: 0px !important;
+  }
+}
+
+@media (hover: none), (max-width: 768px), (max-device-width: 768px) {
+  #clean-button {
+    background: rgb(240, 167, 179);
+  }
+  #overlay-button {
+    background: #9fcef5;
+  }
+  #remove-button {
+    background: rgb(153, 158, 229);
+  }
+  #compare-button,
+  #clean-button,
+  #overlay-button,
+  #screen-button {
+    font-size: 0.7rem;
+    color: white;
+    text-shadow: 0 0 4px black;
+  }
+  button.active#overlay-button {
+    background: rgb(31, 122, 207);
+    color: white;
+  }
+  button.active#screen-button {
+    background: rgb(15, 167, 48) !important;
+    color: white;
+  }
+  .last {
+    background-color: #bbb !important;
+  }
+  /*hotfix for no mobile support*/
+
+  #bodyContent #compare-button,
+  #bodyContent #clean-button,
+  #bodyContent #overlay-button,
+  #bodyContent #screen-button,
+  .img-comp-container {
+    display: none;
+  }
+  #compare-button {
+    display: none;
+  }
+  /*
+  #spotify-container {
+    display: none !important;
+  }
+  */
+}
+button#overlay-button,
+button#screen-button {
+  transition: background-color 0.5s;
+}
+#overlay-button {
+  border-bottom-left-radius: 1rem;
+}
+
+.lightbox-project #remove-button {
+  border-bottom-right-radius: 1rem;
+}
+
+.lightbox-project button:hover {
+  background: rgb(86, 158, 224);
+  color: white;
+}
+
+#clean-button:hover {
+  background: rgb(224, 95, 86);
+  color: white;
+}
+#screen-button:hover {
+  background: rgb(17, 219, 152);
+  color: white;
+}
+
+button#screen-button.active {
+  background: rgb(103, 196, 66);
+  color: white;
+}
+button.active {
+  background: rgb(61, 151, 236);
+  color: white;
+}
+
+#slideDots {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*add style should I want to add letters to dots*/
+span.dot {
+  font-size: 0.5rem;
+  color: black;
+}
+span.dot.active {
+  color: white;
+}
+.img-comp-slider {
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+#compare-button:hover {
+  background: rgb(248, 165, 12);
+}
+.compare-hide {
+  display: none !important;
+}
+.close-mobile {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-bottom-left-radius: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  mix-blend-mode: normal;
+  text-shadow: 0 0 0.3rem white;
+  user-select: none;
+  cursor: pointer;
+  background: #a5a5a54d;
+}
+button {
+  cursor: pointer;
+}
+::-webkit-scrollbar-track {
+  opacity: 1 !important;
+  background-color: white;
+}
