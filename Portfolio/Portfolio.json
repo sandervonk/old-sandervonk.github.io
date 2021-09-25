@@ -1,0 +1,567 @@
+[
+  {
+    "title": "Eve from WALL-E",
+    "image": "Eve.jpg",
+    "slideshow": [
+      [
+        "projects/Eve/EveLighter.jpg",
+        "Here's a render that I made to look like a scene from the movie"
+      ],
+      [
+        "projects/Eve/EveLaugh.jpg",
+        "A cute render I did towards the beginning of modelling EVE"
+      ],
+      [
+        "projects/Eve/EveCannon.mp4",
+        "Animation Showing the draw and stow of the arm cannon I made"
+      ],
+      [
+        "projects/Eve/EveFingers.mp4",
+        "Status Lights + Fingers retraction and extention animation"
+      ],
+      [
+        "projects/Eve/EveArmAim.jpg",
+        "Here's another render from when I was working on the arm of the render"
+      ],
+      [
+        "projects/Eve/EveBean.mp4",
+        "Early animation showing the 'beanifing' of the model."
+      ],
+      [
+        "projects/Eve/EveLighterSolid.png",
+        "Solid view/clay render of the lighter scene"
+      ],
+      [
+        "projects/Eve/EveLighterWireframe.png",
+        "Wireframe render of the lighter scene"
+      ],
+      [
+        "projects/Eve/EveLighterWireframeX-Ray.png",
+        "X-ray wireframe render of the lighter scene"
+      ]
+    ],
+    "description": "Though this project orignally started as a way for me to practice Sci-Fi and animated movie styles, it ended up being really good practice for natural looking animations. Eve's mix of robotic and smooth animations presented for a unique challenge"
+  },
+  {
+    "title": "Low-Poly Aircraft Carrier",
+    "image": "Carrier.png",
+    "slideshow": [
+      [
+        "projects/Carrier/CarrierDeckCargo.jpg",
+        "Deck render with the C-2 galaxy"
+      ],
+      [
+        "projects/Carrier/CarrierDeckClose-Up.jpg",
+        "Quick deck render accentuating the fact that I forgot to lower everything all the way down onto the deck"
+      ],
+      [
+        "projects/Carrier/CarrierHangarNew.jpg",
+        "Render of the Hangar with new models + Lighting"
+      ],
+      [
+        "projects/Carrier/CarrierDeck2.jpg",
+        "New feature render with updated models and lights (old one 3 slides later)"
+      ],
+      [
+        "projects/Carrier/CarrierSunset.jpg",
+        "4k cycles render with a sunset hdri that I quickly made."
+      ],
+      [
+        "projects/Carrier/CarrierTop.jpg",
+        "Top down (Orthographic) view of the entire model. This could be used for a minimap when the player is on the upper deck."
+      ],
+      [
+        "projects/Carrier/CarrierDeck1.jpg",
+        "A hyperrealistic render of the deck I did for fun"
+      ],
+      [
+        "projects/Carrier/CarrierTimelapse.mp4",
+        "Timelapse of making the carrier; At least the first parts..."
+      ],
+      [
+        "projects/Carrier/CarrierHangerTop.jpg",
+        "Top Down (Orthographic) view of just the hold/hangar area. Could be used for a map view when player is in lower level."
+      ],
+      [
+        "projects/Carrier/CarrierSmoothWater.jpg",
+        "4k render from a bit earlier in with smooth water made using an ocean modifier."
+      ],
+      [
+        "projects/Carrier/CarrierHangarCycles.jpg",
+        "Cycles render of the inside of the hold/hangar area. Much will be changed here in terms of objects and scaling. (Note that the closest crate is actually brown, just the lighting makes it look oddly colorless)"
+      ],
+      [
+        "projects/Carrier/CarrierHangarSolid.jpg",
+        "Same as previous, just a quick solid view render"
+      ],
+      [
+        "projects/Carrier/CarrierOrtho1.png",
+        "Orthographic map view (with pretty bad lighting xD)"
+      ],
+      [
+        "projects/Carrier/CarrierOrtho2.png",
+        "Orthographic map view for the hangar (even worse lighting)"
+      ]
+    ],
+    "sketchfab": [
+      [
+        "925f9132968b48b69dc190f9ab19b629",
+        "Sketchfab Embed from Simplified .fbx export with procedural textures baked to palette"
+      ]
+    ],
+    "description": "Modeled with the goal of a low triangle count, this project really helped me improve my low-poly modelling skills. It also served as a very helpful introduction into map making, especially with player navigation in mind. Though certainly not made with graphical beauty in mind, this map certainly holds its own. It also uses a palette to reach its' miniscule file size.[NEWLINE]The bottom deck features assets of many different types. When looking over the timelapse I took of modelling this project, I realized just how many assets I had to delete because of their high poly counts. Barrels and spherical objects were some of the biggest culprits"
+  },
+  {
+    "title": "Low-Poly Lighthouse",
+    "image": "Lighthouse.png",
+    "description": "Though the main aim of this project was to get more practice with low-poly enviroments, it also served as a very helpful segway into a sort of, for lack of a better word, multi-media, type of rendering, a mix of many styles and techniques.[NEWLINE]This project also provided me with lots of helpful practice using hype-realistic rendering on non-realistic scenes. In this render specifically, I used a volumetric for the beam of the lighthouse, something that, though actually low-poly itself, provides some extra depth to the scne, different from the harsh lines on the rest of the landscape",
+    "slideshow": [
+      [
+        "projects/Lighthouse/LighthouseSunset.png",
+        "New sunset render of the redesigned island and lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseDay.png",
+        "New day render of the redesigned island and lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseDayAnim.gif",
+        "New day animation of the redesigned island and lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseEeveeSolid.png",
+        "Eevee render of the island, shows color and AO, but not shading"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolid.png",
+        "Solid view/clay render of the scene"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolidColor.png",
+        "Solid view render of the scene with color"
+      ],
+      [
+        "projects/Lighthouse/LighthouseWireframe.png",
+        "Wireframe X-Ray render of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSolidWireframe.png",
+        "Wireframe render of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseAO.png",
+        "Ambient occlusion render of the lightouse scene"
+      ],
+      [
+        "projects/Lighthouse/LighthouseSunset2.gif",
+        "Old sunset version of the lighthouse"
+      ],
+      [
+        "projects/Lighthouse/LighthouseDay2.gif",
+        "Old day version of the lighthouse"
+      ]
+    ]
+  },
+  {
+    "title": "Pixel 4a Concept",
+    "image": "Pixel4a.png",
+    "description": "One of my favorite projects to date, the Pixel 4a concept, a set of about 10-15 individual renders based on what was at the time my idea of what the Google Pixel 4a should look like. Along the way, I learned to reproduce a lot of the styles used in the publicized material for the former Pixel 4 & Pixel 4 XL.[NEWLINE]This taught me a lot about product advertisement, something that I haven't used yet, but fun nevertheless! I was especially intrigued by the smooth animations used, something that took me awhile to get down, but later allowed me to create a bunch of (looping!) ad renders for my concept",
+    "slideshow": [
+      [
+        "projects/Pixel/PixelAdRender.mp4",
+        "One of my favorite animations to date, there's also a looping version of this that I can't seem to find!!"
+      ],
+      [
+        "projects/Pixel/PixelWorkflow.mp4",
+        "A short clip of what it was like working on this project from the first render"
+      ],
+      [
+        "projects/Pixel/PixelBoxAnimation.mp4",
+        "Animation using smooth beziers and a box using the next render!"
+      ],
+      [
+        "projects/Pixel/PixelFrontTransparent.png",
+        "A transparent front render I did of the model to design the box."
+      ],
+      [
+        "projects/Pixel/Pixel3Colors.png",
+        "The cover image for this project, one of my personal favorites, I made 3 verions of this, each with the colors rotated around 1!"
+      ],
+      [
+        "projects/Pixel/PixelWithBox.png",
+        "A render of the phone model with the box made using the image from before!"
+      ],
+      ["projects/Pixel/PixelWonG.png", "Render of the pixel, White on Green"],
+      ["projects/Pixel/PixelBonO.png", "Render of the pixel, Blue on Orange"],
+      ["projects/Pixel/PixelWonG.png", "Render of the pixel, White on Red"],
+      [
+        "projects/Pixel/PixelBox.png",
+        "Render of the front of the box made from my transparent render."
+      ],
+      [
+        "projects/Pixel/PixelBoxEdit.png",
+        "An edited version of the back of a real pixel box I used for the back of MY box."
+      ]
+    ]
+  },
+  {
+    "title": "Vinyl Record Player",
+    "image": "RecordPlayer.png",
+    "description": "Perhaps one of the less fine-tuned projects I've worked on, this model mainly served as practice with image texturing and product design. I worked off of promo art for a small kickstarter retro-modern vinyl record player called the TT8.[NEWLINE]If you look closely at the corners, you can actually see some of the spots where the UV was all mapped to one point because of weirdly-placed bevel modifiers",
+    "slideshow": [
+      [
+        "projects/Record/RecordAO.png",
+        "Ambient occlusion pass of the record render"
+      ],
+      [
+        "projects/Record/RecordDenoise.png",
+        "Denoise intensity pass of the render that brings out the grooves."
+      ],
+      [
+        "projects/Record/RecordEeveeSolid.png",
+        "Eevee solid view render of the scene"
+      ],
+      ["projects/Record/RecordCombined.png", "Final combined render pass"],
+      ["projects/Record/RecordShadow.png", "Shadow Pass"],
+      [
+        "projects/Record/RecordUV.png",
+        "UV pass that shows how the textures are mapped onto the object"
+      ],
+      [
+        "projects/Record/RecordWireframe.png",
+        "Wireframe pass that shows the object's actual mesh structure"
+      ]
+    ]
+  },
+  {
+    "title": "Snoopy in Cell-Shaded 3D",
+    "image": "Snoopy.png",
+    "slideshow": [
+      [
+        "projects/Snoopy/SnoopyFullRender.png",
+        "A full render showing both Snoopy and Charlie Brown, but not any of the extra scenery that can be a bit much"
+      ],
+      [
+        "projects/Snoopy/SnoopyBusyRender.png",
+        "Full render that takes inspiration from the Peanuts movie and the original comics, a bit busy for my taste, but everything there is based on a real source (the 'The Tree')"
+      ],
+      [
+        "projects/Snoopy/SnoopyHandsFinal.png",
+        "Final render without Charlie brown, showcasing the recent additions of hands + more to the main Snoopy model!"
+      ],
+      [
+        "projects/Snoopy/SnoopyTimelapse.mp4",
+        "Workflow TImelapse consisting of the majority of the project, up until I finished the typewriter!"
+      ],
+      [
+        "projects/Snoopy/SnoopyFullLoop.mp4",
+        "Short render of the camera circling the model"
+      ],
+      [
+        "projects/Snoopy/SnoopyFullLoopWire.mp4",
+        "Short render of the camera circling the model with wireframe overlays"
+      ],
+      [
+        "projects/Snoopy/SnoopyTypewriter.gif",
+        "Gif of the typewriter spinning"
+      ],
+      [
+        "projects/Snoopy/SnoopyFlat.jpg",
+        "Single frame render with no cell shading objects, looks a little like a flat-shaded version"
+      ],
+      [
+        "projects/Snoopy/SnoopyFlatRandom.jpg",
+        "Single frame render with Solid->Flat Pass, showing each object's index to give perspective"
+      ],
+      [
+        "projects/Snoopy/SnoopySolid.jpg",
+        "Single frame render with solid shading"
+      ],
+      [
+        "projects/Snoopy/SnoopyOverlayCombined.jpg",
+        "Single frame render with wireframe overlays, shows the 3D nature of the flat-shaded object"
+      ],
+      [
+        "projects/Snoopy/SnoopyFinal.jpg",
+        "4K rendered sample frame and project cover"
+      ],
+      [
+        "projects/Snoopy/SnoopyWireframe.png",
+        "Wireframe render of final sample frame/cover"
+      ]
+    ],
+    "description": "Ranking high among my favorite ever projects, making these models was a joy, especially when I switched over from a solid clay-like preview to a realtime renderer, which showed me the true cell-shaded nature of the models.[NEWLINE]Though this is still very much a work in progress, I love the direction in which its' going, and really appreciate the experience I've learned with cartoon styles in 3D modelling softwares and renderers"
+  },
+  {
+    "title": "Nintendo Switch Promo Art",
+    "image": "Switch.png",
+    "slideshow": [
+      [
+        "projects/Switch/SwitchCombined4.jpg",
+        "Simple cycles render featuring all the models I made for this (Cycles because it did the shadows and reflections a bit better, and kept the color of the white 'floor')"
+      ],
+      [
+        "projects/Switch/SwitchCombined5.jpg",
+        "4th frame, combined with Screen Space Reflections and Ambient Occlusion. This one is new, no no extra passes for it yet"
+      ],
+      [
+        "projects/Switch/SwitchCombined1.jpg",
+        "Full Combined Render of the First frame with Screen Space Reflections and Ambient Occlusion"
+      ],
+      [
+        "projects/Switch/SwitchCombined2.jpg",
+        "Full Combined Render of the Second frame with Screen Space Reflections and Ambient Occlusion"
+      ],
+      [
+        "projects/Switch/SwitchCombined3.jpg",
+        "Full Combined Render of the 3rd frame with Screen Space Reflections and Ambient Occlusion. Unlike the 2 before, this one isn't based on an ad/promotional materials that were actually used, I just made it up to show the detailing I did on the back and top"
+      ],
+      [
+        "projects/Switch/SwitchDark0.jpg",
+        "Specular pass of the extra frame (These look like a dark mode version of it in themselves!)"
+      ],
+      [
+        "projects/Switch/SwitchDark1.jpg",
+        "Specular Pass of the First Frame (These look like a dark mode version of it in themselves!)"
+      ],
+      [
+        "projects/Switch/SwitchDark2.jpg",
+        "Specular Pass of the Second Frame (These look like a dark mode version of it in themselves!)"
+      ],
+      ["projects/Switch/SwitchDark3.jpg", "Specular Pass of the 3rd Frame"],
+      [
+        "projects/Switch/SwitchDiffuse0.jpg",
+        "Diffuse Color/Solid Color Pass of the extra frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse1.jpg",
+        "Diffuse Color/Solid Color Pass of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse2.jpg",
+        "Diffuse Color Pass of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchDiffuse3.jpg",
+        "Diffuse Color Pass of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid0.jpg",
+        "Solid/Clay Render of the extra frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid1.jpg",
+        "Solid/Clay Render of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolid2.jpg",
+        "Solid View Render of the Second Frame"
+      ],
+      ["projects/Switch/SwitchSolid3.jpg", "Solid Pass of the 3rd Frame"],
+      [
+        "projects/Switch/SwitchSolidWire0.jpg",
+        "Solid Wireframe Render of the extra frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire1.jpg",
+        "Solid Wireframe Render of the First Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire2.jpg",
+        "Solid Wireframe View of the Second Frame"
+      ],
+      [
+        "projects/Switch/SwitchSolidWire3.jpg",
+        "Solid Wireframe View of the 3rd Frame"
+      ],
+      [
+        "projects/Switch/SwitchWire0.jpg",
+        "Wireframe Render of the extra frame"
+      ],
+      [
+        "projects/Switch/SwitchWire1.jpg",
+        "Wireframe Render of the First Frame"
+      ],
+      ["projects/Switch/SwitchWire2.jpg", "Wireframe View of the Second Frame"],
+      ["projects/Switch/SwitchWire3.jpg", "Wireframe View of the 3rd Frame"]
+    ],
+    "description": "Yet another product remake, modelling the Nintendo Switch really helped me learn how to detail efficiently. Though I wont pretend that it took any small amount of time, working off of just 3 different angles of the product, I think I was able to pull off the general design pretty well![NEWLINE]For this project, I also remade most of the promotional material I could find, along with a couple poses/enviroments of my own creation",
+    "sketchfab": [
+      [
+        "c01af3267244448f99d5d79be002d0ac",
+        "Sketchfab Embed from Simplified .fbx export (with procedural textures baked, some animations removed"
+      ]
+    ]
+  },
+  {
+    "title": "Xbox Promo Art Remake",
+    "image": "Xbox.png",
+    "description": "This peice was mainly done as a challenge to myself to see how well I could recreate a professional product render. Given that I had no real-life counterpart and nothing but some vauge promotional materials to work off of, I really like the way this turned out. The creases coming from the corners are very visible, something I struggled to get less apparent. Though this model creates more of a V from the corners to the middle, it still represents the model pretty well imo.[NEWLINE]Though I tend to forget it myself, this model is actually only the top part of the Xbox, under there it's just a flat bottom, no detailing, which definitely made modelling it easier",
+    "slideshow": [
+      [
+        "projects/Xbox/XboxMixed.png",
+        "A small collage of different passes for this render, it was a small project."
+      ],
+      [
+        "projects/Xbox/Xbox1080.png",
+        "Full size render of the model, matches the promotional materials"
+      ],
+      [
+        "projects/Xbox/XboxGloss.png",
+        "Gloss render of the model, shows just how sharp some of the lines in the cover are, whoops!"
+      ],
+      ["projects/Xbox/XboxDiffuse.png", "Diffuse pass of the model"],
+      ["projects/Xbox/XboxAO.png", "Ambient Occlusion render of the model."],
+      [
+        "projects/Xbox/XboxWireframe.png",
+        "Solid view wireframe render of the model, shows just how shader-based it was!"
+      ]
+    ],
+    "sketchfab": [
+      [
+        "3d0327bf2b534f6288bdc9ed61b03fc4",
+        ".glb export (butchered textues :( )"
+      ]
+    ]
+  },
+  {
+    "title": "Minimalistic Windows 10 Wallpaper",
+    "image": "Windows.png",
+    "description": "This idea came to me when I was working with small windows and was looking at my background a lot. I wondered just how hard it would be to make a minimalistic version of the widely-known Windows 10 wallpaper.[NEWLINE]Though I have to admit I had it a lot easier than those trying to take the pictures in real life, I'm still proud of this idea, and love the way it turned out",
+    "slideshow": [
+      [
+        "projects/Windows/WindowsSolidX-Ray.png",
+        "X-Ray View of the model, pretty simple to say the least"
+      ],
+      [
+        "projects/Windows/WindowsSolid.png",
+        "Solid view, no X-Ray, shows everything is in shaders"
+      ],
+      ["projects/Windows/WindowsCombined.png", "Full rendered image"],
+      [
+        "projects/Windows/WindowsWireframe.png",
+        "Wireframe render that shows the structure"
+      ]
+    ]
+  },
+  {
+    "title": "Windmill Landscape Art",
+    "image": "Landscape.png",
+    "description": "Originally meant as a small birthday present for my father, modelling this landscape was tedious, but undoubtedly fun. I enjoyed creating the mountains in the back most, though I meant for the 'grass' and the windmill itself to be the main feature peice of this render. This render also helped me become more accustomed to do hyper-realistic renders of low-poly scenes. I also mixed in some higher-poly features, namely the water in the pond",
+    "slideshow": [
+      [
+        "projects/Windmill/WindmillCombined.png",
+        "Full combined and composited Cycles render"
+      ],
+      [
+        "projects/Windmill/WindmillSolid.png",
+        "Solid view/clay render of the scene"
+      ],
+      [
+        "projects/Windmill/WindmillSolidColor.png",
+        "Same as previous but with object shading"
+      ],
+      [
+        "projects/Windmill/WindmillFlatShaded.png",
+        "Flat shaded colors from the previous"
+      ],
+      [
+        "projects/Windmill/WindmillSolidEevee.png",
+        "Eevee render of the scene/matcap"
+      ],
+      [
+        "projects/Windmill/WindmillWireframe.png",
+        "Wireframe render of the windmill scene"
+      ]
+    ]
+  },
+  {
+    "title": "Aeries Login Art Prototype",
+    "image": "AeriesLogin.png",
+    "description": "Though this peice orginally started as a simple 2D promotional image I made for my Simplify Aeries extension (and for fun!!), this peice attempts to be abstract while also including real site and extension elements. Note specifically the Login Page elements and the extension logo",
+    "slideshow": [
+      [
+        "projects/SimplifyLogin/SimplifyLoginCombined.png",
+        "Fully ray-traced and composited render of the scene, also the cover img"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginEeveeSolid.png",
+        "Eevee render of the scene with matcap lighting"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginFlat.png",
+        "Flat-shaded version of the scene showing the different elements/materials"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginSolid.png",
+        "Solid uncolored version of the scene showing the mesh structure"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginWireframe.png",
+        "Wireframe showing the mesh of everything in view"
+      ],
+      [
+        "projects/SimplifyLogin/SimplifyLoginWireframeX-Ray.png",
+        "X-ray wireframe showing everything in view and more!!"
+      ]
+    ],
+    "sketchfab": [["780d9d8c33cf4a0f83a737aca4d7326b", ""]]
+  },
+  {
+    "title": "Aeries Overview Art Project Page",
+    "image": "AeriesOverview.png",
+    "description": "A continuation of the Login Page art, this graphic was used on the 'Project' page of this site as the background, to mimic the style of the actual Aeries.com graphics. I took some design ideas from them, and tried to keep it fairly abstract. My main change was the elements protruding from the phoen display, which are made to more accurately reflect the real interface, or at least my vision for it",
+    "slideshow": [
+      [
+        "projects/Simplify/SimplifySolid.png",
+        "Solid/clay render of the entire scene"
+      ],
+      [
+        "projects/Simplify/SimplifyEeveeSolid.png",
+        "Correctly lit Eevee render of the scene"
+      ],
+      [
+        "projects/Simplify/SimplifyCyclesCombined.png",
+        "Fully composited render; cover image for this project"
+      ],
+      [
+        "projects/Simplify/SimplifyViewportSolid.png",
+        "Soft-lit solid render of the scene"
+      ],
+      [
+        "projects/Simplify/SimplifyWireframe.png",
+        "Wireframe view of the scene showing all the mesh components"
+      ],
+      [
+        "projects/Simplify/SimplifyWireframeX-Ray.png",
+        "X-ray wireframe view of the scene showing the full mesh structure"
+      ]
+    ],
+    "sketchfab": [
+      [
+        "5729bc85a76e4f2b9ab17ad0ba5a6943",
+        "My personal adaptation of actual Aeries marketing material styling"
+      ]
+    ]
+  },
+  {
+    "title": "Sony WF-1000XM3 Earbuds",
+    "image": "WF-1000-XM3.png",
+    "description": "Though this originally just started as a way for me to learn how to better design real products, this project was very enjoyable, as it allowed me to try using the 'flow' of a real ad/publicized comemrical with full creative freedom!",
+    "slideshow": [
+      [
+        "projects/Earbuds/EarbudsAnimation.mp4",
+        "A short promotional animation I made featuring the model: Breakdown & final comp."
+      ],
+      ["projects/Earbuds/Earbuds1.mp4", "Wireframe render of the animation"],
+      ["projects/Earbuds/Earbuds2.mp4", "AO/Clay render of the model"],
+      [
+        "projects/Earbuds/Earbuds3.mp4",
+        "Solid flat-shaded render of the model"
+      ],
+      ["projects/Earbuds/Earbuds4.mp4", "Solid render of the model"],
+      ["projects/Earbuds/Earbuds5.mp4", "Solid matcap render of the model"],
+      ["projects/Earbuds/Earbuds6.mp4", "Full composited Eevee render"]
+    ]
+  }
+]

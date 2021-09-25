@@ -4,13 +4,14 @@ function transition() {
     if (window.location.href.includes("Contact.html")) {
         setLinks()
     }
-    document.querySelector("img[src='img/SiteName.png']").addEventListener("click", function () {
+    document.querySelector("img[src='../img/SiteName.png']").addEventListener("click", function () {
         window.location.href = "https://sander.vonk.productions"
     })
 }
 function highlightCurrentPage() {
     window.addEventListener("load", transition)
-    pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].substring(0, window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 1].length - 5)
+    pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 2]
+    pageId = pageId.replace("About", "About_Me")
     if (pageId != "" && pageId != "404") {
         document.getElementById(pageId).style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
         document.getElementById(pageId + "2").style = "background-color: rgba(173, 216, 230, 0.5) !important; transition: background-color 1.5s;"
