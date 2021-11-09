@@ -4,7 +4,7 @@ function dumpResponse() {
     html = "";
   for (let project of projects) {
     html =
-      `<a class="github-project rounded-full bg-teal" "href="${
+      `<a class="github-project rounded-full bg-teal" href="${
         "https://github.com/" + project["full_name"]
       }">${project.name}</a>` + html;
   }
