@@ -5,7 +5,7 @@ function transition() {
         setLinks()
     }
     document.querySelector("img[src='../img/SiteName.png']").addEventListener("click", function () {
-        window.location.href = "https://sander.vonk.productions"
+        window.location.href = "https://sander.vonk.one"
     })
 }
 function highlightCurrentPage() {
