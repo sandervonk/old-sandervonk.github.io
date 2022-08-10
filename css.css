@@ -10,8 +10,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 [type="button"],
 [type="reset"],
@@ -53,9 +52,7 @@ p {
   margin: 0;
 }
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.5;
 }
 body {
@@ -94,10 +91,7 @@ a {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-transform: translateX(var(--tw-translate-x))
-    translateY(var(--tw-translate-y)) rotate(var(--tw-rotate))
-    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
-    scaleY(var(--tw-scale-y));
+  --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   border-color: currentColor;
   --tw-shadow: 0 0 transparent;
   --tw-ring-inset: var(--tw-empty);
@@ -115,9 +109,7 @@ a {
   --tw-saturate: var(--tw-empty);
   --tw-sepia: var(--tw-empty);
   --tw-drop-shadow: var(--tw-empty);
-  --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
-    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
-    var(--tw-sepia) var(--tw-drop-shadow);
+  --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   --tw-backdrop-blur: var(--tw-empty);
   --tw-backdrop-brightness: var(--tw-empty);
   --tw-backdrop-contrast: var(--tw-empty);
@@ -127,11 +119,7 @@ a {
   --tw-backdrop-opacity: var(--tw-empty);
   --tw-backdrop-saturate: var(--tw-empty);
   --tw-backdrop-sepia: var(--tw-empty);
-  --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
-    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
-    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
-    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
-    var(--tw-backdrop-sepia);
+  --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .container {
   width: 100%;
@@ -780,19 +768,16 @@ a {
   color: rgba(178, 186, 197, var(--tw-text-opacity));
 }
 .shadow {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
-    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 .shadow-md {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
-    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
 }
 .shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 @media (min-width: 768px) {
   .md\:container {
@@ -1527,20 +1512,16 @@ ul.menuTransition li {
   transform: scale(1.2);
 }
 .social.slot1 {
-  transform: translate(-50%, -50%) rotate(-130deg) translate(250px)
-    rotate(130deg);
+  transform: translate(-50%, -50%) rotate(-130deg) translate(250px) rotate(130deg);
 }
 .social.slot2 {
-  transform: translate(-50%, -50%) rotate(-146deg) translate(180px)
-    rotate(146deg);
+  transform: translate(-50%, -50%) rotate(-146deg) translate(180px) rotate(146deg);
 }
 .social.slot3 {
-  transform: translate(-50%, -50%) rotate(-163deg) translate(180px)
-    rotate(163deg);
+  transform: translate(-50%, -50%) rotate(-163deg) translate(180px) rotate(163deg);
 }
 .social.slot4 {
-  transform: translate(-50%, -50%) rotate(-180deg) translate(250px)
-    rotate(180deg);
+  transform: translate(-50%, -50%) rotate(-180deg) translate(250px) rotate(180deg);
 }
 .social img {
   width: 100%;
@@ -2005,8 +1986,7 @@ h1.text-title.font-aeries.font-bold:hover {
 }
 */
 a.rounded-full.bg-blue:hover {
-  box-shadow: 0 1px 0 #1e3563, 0 2px 0 #1e3563, 0 3px 0 #1e3563, 0 4px 0 #1e3563,
-    0 5px 0 #1e3563, 0 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 #1e3563, 0 2px 0 #1e3563, 0 3px 0 #1e3563, 0 4px 0 #1e3563, 0 5px 0 #1e3563, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 60.1rem) {
@@ -2041,10 +2021,18 @@ a.rounded-full.bg-blue:hover {
 .bg-grey {
   background-color: rgb(160, 160, 160);
 }
+
+a.rounded-full.bg-blue:hover {
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+a.rounded-full.bg-purple:hover,
+a.rounded-full.bg-teal:hover {
+  margin-top: calc(0.5em - 5px);
+  margin-bottom: calc(0.5em + 5px);
+}
 a.rounded-full.bg-grey:hover {
-  box-shadow: 0 1px 0 rgb(117, 117, 117), 0 2px 0 rgb(117, 117, 117),
-    0 3px 0 rgb(117, 117, 117), 0 4px 0 rgb(117, 117, 117),
-    0 5px 0 rgb(117, 117, 117), 0 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgb(117, 117, 117), 0 2px 0 rgb(117, 117, 117), 0 3px 0 rgb(117, 117, 117), 0 4px 0 rgb(117, 117, 117), 0 5px 0 rgb(117, 117, 117), 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 a.rounded-full.bg-grey {
   transition: 0.2s !important;
@@ -2095,12 +2083,10 @@ a.rounded-full.bg-grey {
   background-color: #82007d;
 }
 a.rounded-full.bg-purple:hover {
-  box-shadow: 0 1px 0 #550052, 0 2px 0 #550052, 0 3px 0 #550052, 0 4px 0 #550052,
-    0 5px 0 #550052, 0 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 #550052, 0 2px 0 #550052, 0 3px 0 #550052, 0 4px 0 #550052, 0 5px 0 #550052, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 a.rounded-full.bg-teal:hover {
-  box-shadow: 0 1px 0 #005255, 0 2px 0 #005255, 0 3px 0 #005255, 0 4px 0 #005255,
-    0 5px 0 #005255, 0 20px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 #005255, 0 2px 0 #005255, 0 3px 0 #005255, 0 4px 0 #005255, 0 5px 0 #005255, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 a.rounded-full.bg-teal {
   background-color: #00827c;
