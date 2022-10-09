@@ -86,7 +86,8 @@
   .Newtab-Container,
   .Spotify-Container,
   .VITE-Container,
-  .Github-Container {
+  .Github-Container,
+  .Simplify-Container {
     padding: 0px !important;
     padding-top: 30px !important;
   }
