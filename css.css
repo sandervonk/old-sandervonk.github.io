@@ -2077,6 +2077,11 @@ a.rounded-full.bg-grey {
   transition: background-color 0.25s ease-in-out;
   font-weight: 600;
   cursor: pointer;
+  /* new */
+  flex-basis: 165px;
+  flex-shrink: 1;
+  min-width: fit-content;
+  flex-grow: 1;
 }
 .github-label,
 .bg-purple {
