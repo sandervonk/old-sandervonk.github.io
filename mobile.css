@@ -76,15 +76,17 @@
   }
   body .container.cta.py-24 {
     min-width: unset !important;
-    padding-top: 3.5rem !important;
     height: 100%;
+  }
+  body .container.cta.py-20 > .flex {
+    padding-top: 3.5rem !important;
   }
   .VITE-Container {
     padding: 0px !important;
-    padding-top: 90px !important;
+    padding-top: calc(3.5rem + 70px) !important;
   }
   .Newtab-Container,
-  .Spotify-Container,
+  .FocusTime-Container,
   .VITE-Container,
   .Github-Container,
   .Simplify-Container {

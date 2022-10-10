@@ -1,17 +1,13 @@
 @font-face {
   font-family: "Boxed Round";
-  src: local("Boxed Round Extra light"), local("Boxed-Round-Extra-light"),
-    url("font/BoxedRoundExtralight.woff2") format("woff2"),
-    url("font/BoxedRoundExtralight.woff") format("woff"),
-    url("font/BoxedRoundExtralight.ttf") format("truetype");
+  src: local("Boxed Round Extra light"), local("Boxed-Round-Extra-light"), url("font/BoxedRoundExtralight.woff2") format("woff2"), url("font/BoxedRoundExtralight.woff") format("woff"), url("font/BoxedRoundExtralight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Revx Neue";
-  src: local("Revx Neue Semi Bold"), local("Revx-Neue-Semi-Bold"),
-    url("font/RevxNeueDemo-SemiBold.ttf") format("woff2");
+  src: local("Revx Neue Semi Bold"), local("Revx-Neue-Semi-Bold"), url("font/RevxNeueDemo-SemiBold.ttf") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -415,7 +411,7 @@ video {
     display: none;
   }
   /*
-  #spotify-container {
+  #FocusTime-Container {
     display: none !important;
   }
   */
