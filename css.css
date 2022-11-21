@@ -459,6 +459,10 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgba(46, 39, 28, var(--tw-bg-opacity));
 }
+.bg-kosumi {
+  --tw-bg-opacity: 1;
+  background: linear-gradient(94deg, #eba419 0%, #bc6b2c 100%);
+}
 .bg-neutral-1600 {
   --tw-bg-opacity: 1;
   background-color: rgba(52, 69, 99, var(--tw-bg-opacity));
@@ -1994,7 +1998,7 @@ a.rounded-full.bg-blue:hover {
 
 @media (min-width: 60.1rem) {
   .Simplify-Container > .container > .flex,
-  .Newtab-Container > .container > .flex,
+  .Kosumi-container > .container > .flex,
   .FocusTime-Container > .container > .flex,
   .VITE-Container > .container > .flex,
   .Github-Container > .container > .flex {
@@ -2004,7 +2008,7 @@ a.rounded-full.bg-blue:hover {
 .Github-Container {
   background-color: #f6f8fa !important;
 }
-#display-flex {
+#go-link {
   background-color: #ffffff55;
   border-radius: 3px;
   padding-left: 3px;
@@ -2013,7 +2017,7 @@ a.rounded-full.bg-blue:hover {
   border: solid transparent 2px;
   user-select: none;
 }
-#display-flex:hover {
+#go-link:hover {
   background-color: #00000000;
   border: solid #ffffff55 2px;
 }
@@ -2095,6 +2099,9 @@ a.rounded-full.bg-purple:hover {
 }
 a.rounded-full.bg-teal:hover {
   box-shadow: 0 1px 0 #005255, 0 2px 0 #005255, 0 3px 0 #005255, 0 4px 0 #005255, 0 5px 0 #005255, 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+a.rounded-full.bg-kosumi:hover {
+  box-shadow: 0 1px 0 #916524, 0 2px 0 #916524, 0 3px 0 #916524, 0 4px 0 #916524, 0 5px 0 #916524, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 a.rounded-full.bg-teal {
   background-color: #00827c;
