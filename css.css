@@ -2069,6 +2069,8 @@ a.rounded-full.bg-grey {
 #github-projects {
   display: flex;
   flex-flow: row wrap;
+  max-width: 1200px;
+  margin: auto;
 }
 .github-project,
 .github-label {
