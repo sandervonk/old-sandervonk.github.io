@@ -9,6 +9,7 @@ html {
   text-size-adjust: 100%;
 }
 body {
+  --accent-transparent: #add8e680;
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
@@ -131,9 +132,9 @@ a {
     display: none !important;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 415px) {
   .container {
-    max-width: 375px;
+    max-width: 415px;
   }
 }
 @media (min-width: 510px) {
@@ -1474,6 +1475,10 @@ ul li:hover {
   background-color: rgba(173, 216, 230, 0.5);
   transition: background-color 0.25s !important;
 }
+#menu {
+  position: fixed;
+  top: 0;
+}
 ul#menu li {
   animation: spreadMenu 0.65s ease-in-out forwards;
 }
@@ -1775,6 +1780,7 @@ ul.menuTransition li {
   padding: 17px;
   position: fixed;
   right: 0px;
+  top: 0px;
 }
 
 .bar1,
@@ -1827,12 +1833,15 @@ ul.menuTransition li {
   display: none;
   position: absolute;
   right: 0px;
-  top: 70px;
+  top: 68px;
   height: fit-content;
   width: 30%;
   min-width: 200px;
   padding: 20px;
   background: white;
+  border: solid 2px;
+  border-right: none;
+  box-sizing: b;
 }
 .sideMenu li {
   list-style: none;
@@ -1987,7 +1996,7 @@ body {
   height: calc(100vh - 70px);
   max-height: calc(100% - 70px);
   overflow-y: scroll;
-  scroll-snap-type: y proximity;
+  /* scroll-snap-type: y proximity; */
   scroll-snap-stop: normal;
 }
 a.rounded-full.bg-blue,
@@ -2131,4 +2140,8 @@ a.rounded-full.bg-teal {
 }
 .projects-wrapper > div {
   scroll-snap-align: start;
+}
+#titleBar,
+.sideMenu {
+  transition: background-color 0.15s ease-in-out;
 }
