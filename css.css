@@ -127,11 +127,7 @@ a {
   margin-right: auto;
   margin-left: auto;
 }
-@media (max-width: 400px) {
-  *::-webkit-scrollbar {
-    display: none !important;
-  }
-}
+
 @media (min-width: 415px) {
   .container {
     max-width: 415px;
@@ -1952,24 +1948,7 @@ ul.menuTransition li {
   background-position: 100% 100% !important;
 }
 */
-/*customize ui*/
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-::-webkit-scrollbar-corner {
-  background: none;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background: rgba(127, 127, 127, 0.6);
-}
-::-webkit-scrollbar-track {
-  opacity: 0;
-}
-::selection {
-  background: rgba(173, 216, 230, 0.6);
-}
+
 /*filler for uneven lines*/
 #portfolio-filler::before {
   content: none;
@@ -2144,4 +2123,24 @@ a.rounded-full.bg-teal {
 #titleBar,
 .sideMenu {
   transition: background-color 0.15s ease-in-out;
+}
+@media (min-width: 500px) {
+  /*customize ui*/
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-corner {
+    background: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(127, 127, 127, 0.6);
+  }
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+  ::selection {
+    background: rgba(173, 216, 230, 0.6);
+  }
 }
