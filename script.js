@@ -95,9 +95,15 @@ document.addEventListener("keydown", function (e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('images/cheatBackground.png')";
+  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundPosition = "center";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.minHeight = "100vh";
+  document.body.style.backgroundImage = "url('/img/header.png')";
+  document.body.style.backdropFilter = "blur(10px)";
+  document.body.style.backgroundAttachment = "fixed";
 
-  var audio = new Audio("audio/coin.mp3");
+  var audio = new Audio("/audio/coin.mp3");
   audio.play();
 
   alert("totally not an easter egg 🙃");
@@ -107,3 +113,9 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 window.addEventListener("load", transition);
+//handler for "data-href" attribute
+document.addEventListener("click", function (e) {
+  if (e.target.hasAttribute("data-href")) {
+    window.location.href = e.target.getAttribute("data-href");
+  }
+});

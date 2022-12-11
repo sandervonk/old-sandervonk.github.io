@@ -1490,7 +1490,7 @@ ul.menuTransition li {
 /*overflow fix*/
 @media (orientation: portrait) {
   ul {
-    transform: translateX(220px);
+    /* transform: translateX(220px); */
     text-align: left;
   }
 }
@@ -1965,7 +1965,10 @@ ul li {
   height: 70px !important;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+}
+body[hasprojects] {
+  overflow-y: hidden;
 }
 .projects-wrapper {
   display: flex !important;
