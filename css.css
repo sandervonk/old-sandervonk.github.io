@@ -1491,7 +1491,7 @@ ul.menuTransition li {
 @media (orientation: portrait) {
   ul {
     /* transform: translateX(220px); */
-    text-align: left;
+    /* text-align: left; */
   }
 }
 .social-belt {
