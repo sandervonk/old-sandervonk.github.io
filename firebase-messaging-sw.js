@@ -26,7 +26,7 @@ messaging.setBackgroundMessageHandler((payload) => {
   const notificationTitle = notification.title;
   const notificationOptions = {
     body: notification.body,
-    icon: "//sander.vonk.one/VITE/img/icon/app/icon-192x192.png",
+    icon: "//sandervonk.github.io/VITE/img/icon/app/icon-192x192.png",
   };
   return self.registration.showNotification(notificationTitle, notificationOptions);
 });

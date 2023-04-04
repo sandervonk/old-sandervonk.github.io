@@ -5,19 +5,24 @@ function transition() {
     setLinks();
   }
   document.querySelector("img[src='../img/SiteName.png']").addEventListener("click", function () {
-    window.location.href = "https://sander.vonk.one";
+    window.location.href = "https://svonk.me";
   });
 }
 function highlightCurrentPage() {
   window.addEventListener("load", transition);
-  pageId = window.location.href.split("?")[0].split("/")[window.location.href.split("/").length - 2];
+  pageId = window.location.href.split("?")[0].split("/")[
+    window.location.href.split("/").length - 2
+  ];
   pageId = pageId.replace("About", "About_Me");
   if (pageId != "" && pageId != "404") {
-    document.getElementById(pageId).style = "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
-    document.getElementById(pageId + "2").style = "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
+    document.getElementById(pageId).style =
+      "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
+    document.getElementById(pageId + "2").style =
+      "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
   } else {
     pageId = "Contact";
-    document.getElementById(pageId).style = "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
+    document.getElementById(pageId).style =
+      "background-color: var(--accent-transparent) !important; transition: background-color 0.25s;";
   }
 }
 
@@ -53,14 +58,16 @@ function setLinks() {
   const element2 = document.querySelector("#mail-parent");
 
   element1.addEventListener("mouseover", (event) => {
-    element2.style = "transform: translate(-50%, -50%) rotate(-130deg) translate(180px) rotate(130deg);";
+    element2.style =
+      "transform: translate(-50%, -50%) rotate(-130deg) translate(180px) rotate(130deg);";
   });
 
   element1.addEventListener("mouseout", (event) => {
     element2.style.transform = "";
   });
   element2.addEventListener("mouseover", (event) => {
-    element1.style = "transform: translate(-50%, -50%) rotate(-179deg) translate(180px) rotate(179deg);";
+    element1.style =
+      "transform: translate(-50%, -50%) rotate(-179deg) translate(180px) rotate(179deg);";
   });
 
   element2.addEventListener("mouseout", (event) => {
