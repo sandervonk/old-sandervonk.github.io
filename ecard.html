@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sander Vonk | Download Contact E-Card</title>
+    <script>
+        window.onload = function() {
+            // Create a temporary link element
+            var link = document.createElement('a');
+            link.href = '/signature/sander.vcf'; 
+            link.download = 'sander.vcf';  
+            link.click(); 
+            try {
+                setTimeout(function() {
+                    window.location.href = '/#contact-block';  
+                }, 500);  
+            } catch(err) {
+                window.location.href = '/#contact-block';  
+            }; 
+        }
+    </script>
+</head>
+<body>
+    <p>Downloading your contact card...</p>
+    <p>If the download does not start automatically, <a href="./sander.vcf">click here</a>.</p>
+    <!-- backup link to go home -->
+    <p><a href="/">
+        Go back to the homepage
+    </a>.</p>
+</body>
+</html>
