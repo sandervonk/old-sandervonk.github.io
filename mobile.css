@@ -85,11 +85,8 @@
     padding: 0px !important;
     padding-top: calc(3.5rem + 70px) !important;
   }
-  .Kosumi-container,
-  .FocusTime-Container,
-  .VITE-Container,
-  .Github-Container,
-  .Simplify-Container {
+  .projects-wrapper > div,
+  .Github-Container {
     padding: 0px !important;
     margin-top: 10px !important;
     margin-top: 0px !important;
