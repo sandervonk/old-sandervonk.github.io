@@ -2,30 +2,97 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sander Vonk | Download Contact E-Card</title>
-    <script>
-        window.onload = function() {
-            // Create a temporary link element
-            var link = document.createElement('a');
-            link.href = '/signature/sander.vcf'; 
-            link.download = 'sander.vcf';  
-            link.click(); 
-            try {
-                setTimeout(function() {
-                    window.location.href = '/#contact-block';  
-                }, 500);  
-            } catch(err) {
-                window.location.href = '/#contact-block';  
-            }; 
-        }
-    </script>
 </head>
+
 <body>
-    <p>Downloading your contact card...</p>
-    <p>If the download does not start automatically, <a href="./sander.vcf">click here</a>.</p>
-    <!-- backup link to go home -->
-    <p><a href="/">
-        Go back to the homepage
-    </a>.</p>
+    <style>
+        :root {
+          --color-bg: #fcda68;
+          --color-primary: #8773ee;
+          --color-alt: #ffffff;
+        }
+    
+        body,
+        html {
+          box-sizing: border-box;
+          height: 100%;
+          width: 100%;
+    
+          font-size: 18px;
+    
+          margin: 0;
+          padding: 0;
+        }
+    
+        body {
+          background-color: var(--color-bg);
+          color: var(--color-primary);
+    
+          display: table;
+    
+          padding: 10%;
+        }
+    
+        body main {
+          display: table-cell;
+    
+          vertical-align: middle;
+          text-align: center;
+    
+          font-family: "Helvetica", "Arial", sans-serif;
+        }
+    
+        main p,
+        main br {
+          margin: 0.3em 0;
+        }
+    
+        main p span {
+          font-weight: 600;
+        }
+
+        a {
+            color: var(--color-primary);
+        }
+    
+        a#ecard {
+          color: var(--color-alt);
+          background-color: var(--color-primary);
+    
+          display: inline-block;
+          padding: 0.9em 2em;
+          border-radius: 1em;
+    
+          font-weight: 600;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+
+        img {
+            margin-bottom: 1em
+        }
+      </style>
+    <main>
+      <img src="./img/contact.png" alt="Headshot" height="70px" width=70px" />
+      <p>Downloading your <span>contact card</span>...</p>
+      <br />
+      <p>If the download does not start automatically,</p>
+      <br />
+      <p><a id="ecard" download="sander.vcf" href="./sander.vcf">click here</a></p>
+      <br>
+      <!-- backup link to go home -->
+      <p><a href="/" id="home">
+        or head back to the homepage
+    </a></p>
+    </main>
+
+<script>
+    window.onload = function () {
+      document.getElementById("ecard").click();
+      document.getElementById("home").click();
+    };
+  </script>
 </body>
 </html>
