@@ -1521,10 +1521,9 @@ body[hasprojects] {
 .projects-wrapper {
   display: flex !important;
   flex-flow: column !important;
-  top: 70px;
+  top: 0;
   position: relative;
-  height: calc(100vh - 70px);
-  max-height: calc(100% - 70px);
+  height: 100%;
   overflow-y: scroll;
   /* scroll-snap-type: y proximity; */
   scroll-snap-stop: normal;
