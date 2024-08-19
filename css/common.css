@@ -320,3 +320,98 @@ button.gsc-search-button {
     display: flex !important;
   }
 }
+
+
+
+@media (max-width: 790px) {
+  #header-actions {
+    display: none;
+  }
+}
+
+#nav-mobile-title {
+  font-size: 4rem;
+  border-bottom: 2px solid var(--accent3);
+  width: 70%;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+[smallonly] {
+  display: none !important;
+}
+@media (max-width: 650px) {
+  :root {
+    --header-padding: 50px;
+  }
+  #header-actions {
+    display: flex;
+  }
+  header #branding {
+    display: none;
+  }
+  #nav-button,
+  [smallonly] {
+    display: flex !important;
+  }
+  header #main-nav {
+    padding-top: calc(var(--header-height) + 10px);
+    padding-left: var(--header-padding);
+    top: 0;
+    height: 100%;
+    position: fixed;
+    width: 70%;
+    left: -70%;
+    box-sizing: border-box;
+    pointer-events: none;
+    user-select: none;
+    background-color: var(--secondary);
+    transition: left 0.25s ease-out;
+    z-index: 1000;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: 2.5rem;
+  }
+  header #main-nav a {
+    font-size: inherit;
+    width: 100%;
+    font-weight: 500;
+    box-sizing: border-box;
+  }
+  header #main-nav a:active,
+  header #main-nav a:hover,
+  header #main-nav a:focus {
+    background-color: var(--accent2-transparent);
+    color: var(--accent2);
+  }
+  header #main-nav span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-top: auto;
+    text-align: left;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: var(--tertiary);
+    opacity: 0.35;
+    user-select: none;
+    pointer-events: none;
+  }
+  header.open #main-nav {
+    left: 0;
+    pointer-events: all;
+    user-select: unset;
+  }
+  header.open #nav-button {
+    background-image: url(../img/icon/menu-close-icon.png);
+    background-image: url(../img/icon/menu-close-icon.svg);
+    /* transition: background-image 0s 0.25s; */
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    --header-padding: 30px;
+  }
+}

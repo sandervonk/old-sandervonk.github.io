@@ -11,6 +11,10 @@
     <meta name="apple-mobile-web-app-status-bar" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <title>Sander Vonk - My Projects</title>
+    <!-- modernized header-->
+    <link rel="stylesheet" href="/css/common.min.css" />
+    <link rel="stylesheet" href="/css/search.min.css" />
+     <!-- font -->
     <link rel="stylesheet" href="../css.css" />
     <link rel="stylesheet" href="../mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,8 +23,8 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
       rel="stylesheet"
     />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- scripting -->
+    <script src="/src/jquery-3.6.0.min.js"></script>
     <script src="../script.js"></script>
     <script type="application/ld+json">
       {
@@ -38,91 +42,42 @@
           "https://youtube.com/@sandercvonk",
           "https://instagram.com/sander.c.vonk"
         ],
-        "jobTitle": "High School Student"
+        "jobTitle": "College Student"
       }
     </script>
   </head>
   <body hasprojects>
-    <div
-      style="
-        max-height: 70px;
-        border-bottom: #0000004d 2px solid;
-        background-size: contain;
-        background-position-x: left;
-        background-repeat: no-repeat;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background: #f6f8fa;
-        height: 70px;
-        min-height: 50px;
-      "
-      id="titleBar"
-    >
-      <div
-        style="
-          max-height: 70px;
-          margin: auto 20px auto -5px;
-          height: 60px;
-          min-height: 40px;
-          padding-top: 5px;
-          position: absolute;
-        "
-      >
-        <img
-          id="invert-title"
-          src="../img/SiteName.png"
-          href="mailto:sander.c.vonk@gmail.com"
-          style="height: 55px; position: absolute"
-        />
-        <img
-          src="../img/SiteName.png"
-          href="mailto:sander.c.vonk@gmail.com"
-          style="
-            height: 55px;
-            position: absolute;
-            width: 50px;
-            object-fit: cover;
-            object-position: left;
-          "
-        />
-      </div>
-      <div style="width: 100%; height: 70px; min-height: 40px; max-height: 70px">
-        <div id="altMenu" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-          <div class="sideMenu">
-            <div style="vertical-align: middle">
-              <!-- <li id="About_Me2"><a href="/About/">About Me</a></li> -->
-              <li id="Projects2"><a href="/Projects/">Projects</a></li>
-              <li id="Home2"><a href="/">Home</a></li>
-              <li id="Code2">
-                <a href="https://github.com/sandervonk">Code</a>
-              </li>
-              <li id="Portfolio2"><a href="/Portfolio/">Portfolio</a></li>
-            </div>
-          </div>
+    <header style="justify-content: space-between; margin-bottom: 0">
+      <div id="branding">
+        <div id="branding-img">
+          <object data="/img/me/favicon/favicon-alt.svg" type="image/svg+xml" alt="Website by Sander Vonk" title="Website by Sander Vonk">
+            <object data="/img/me/favicon/favicon-alt.png" type="image/png" alt="Website by Sander Vonk" title="Website by Sander Vonk">
+              <img src="/img/me/favicon/favicon.png" alt="Sander Vonk" title="Website by Sander Vonk">
+            </object>
+          </object>
         </div>
-        <ul id="menu">
-          <!-- <a href="/About/">
-            <li id="About_Me">About Me</li>
-          </a> -->
-          <a href="/Projects/">
-            <li id="Projects">Projects</li>
-          </a>
-          <a href="/">
-            <li id="Home">Home</li>
-          </a>
-          <a href="https://github.com/sandervonk">
-            <li id="Code">Code</li>
-          </a>
-          <a href="/Portfolio/">
-            <li id="Portfolio">Portfolio</li>
-          </a>
-        </ul>
+        <div id="branding-text">Sander<br>Vonk</div>
       </div>
-    </div>
+      <button id="nav-button" data-role="menu-toggle" aria-label="Toggle Navigation Menu" control-id="ControlID-1"></button>
+      <nav id="main-nav">
+        <div id="nav-mobile-title" smallonly="">Pages</div>
+        
+        <a href="/">Home</a>
+        <a href="https://github.com/sandervonk/">Code</a>
+        <a href="/Portfolio/">Portfolio</a>
+        <a href="/Contact">Contact</a>
+        <span smallonly="">© 2020-2024 Sander Vonk</span>
+      </nav>
+      <div id="header-actions">
+        <!-- old search (not working)-->
+        <div class="toggle-search" id="native-search">
+          <input type="text" id="search" search-input="" placeholder="Search" control-id="ControlID-2">
+          <button id="search-button" submit-search="" title="Submit Search" class="gsc-search-button gsc-search-button-v2" control-id="ControlID-3"></button>
+        </div>
+        <!-- new search (working, trackers, ew) -->
+        <div class="toggle-search" id="g-search" style="display: none"></div>
+      </div>
+    </header>
     <div class="projects-wrapper" style="background: #f6f8fa">
       <div class="MVTT-Container" style="padding: 50px; background: #f6f8fa">
         <div
@@ -391,4 +346,5 @@
     </div>
   </body>
   <script src="projects.js"></script>
+  <script src="/js/common.js"></script>
 </html>
