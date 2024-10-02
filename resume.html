@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sander Vonk | Resume</title>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="/me/img/icon/menu-icon.svg" as="image" type="image/svg+xml" />
+    <link rel="icon" href="/me/img/favicon/favicon.png" />
+    <link rel="shortcut icon" href="/me/img/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/me/img/favicon/favicon-dark.png" media="(prefers-color-scheme: light)" />
+    <link rel="shortcut icon" href="/me/img/favicon-dark/favicon.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+    <link rel="stylesheet" href="/me/css/common.min.css" />
+    <meta name="theme-color" content="#8773ee" />
+    <link rel="apple-touch-icon" href="/me/img/favicon/favicon.png" />
+    <link rel="apple-touch-icon" href="/me/img/favicon/favicon-dark.png" media="(prefers-color-scheme: light)" />
+    <meta
+      name="description"
+      content="Hi, I'm Sander, a student studying Information Systems at Carnegie Mellon developing web applications aimed at providing equal opportunity for students worldwide"
+    />
+    <meta property="og:title" content="Sander Vonk | Resume" />
+    <meta
+      property="og:description"
+      content="Hi, I'm Sander, a student studying Information Systems at Carnegie Mellon developing web applications aimed at providing equal opportunity for students worldwide"
+    />
+    <meta property="og:image" content="/me/img/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:url" content="https://svonk.me/resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sander Vonk" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@sandercvonk" />
+    <meta name="twitter:title" content="Sander Vonk | Resume" />
+    <meta
+      name="twitter:description"
+      content="Hi, I'm Sander, a student studying Information Systems at Carnegie Mellon developing web applications aimed at providing equal opportunity for students worldwide"
+    />
+    <meta name="twitter:image" content="/me/img/og.png" />
+  </head>
+  <body>
+    <style>
+      :root {
+        --color-bg: #fcda68;
+        --color-primary: #8773ee;
+        --color-alt: #ffffff;
+      }
+
+      body,
+      html {
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+
+        font-size: 18px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--color-alt);
+        color: var(--color-primary);
+
+        display: table;
+
+        padding: 10%;
+      }
+
+      body main {
+        display: table-cell;
+
+        vertical-align: middle;
+        text-align: center;
+
+        font-family: "Helvetica", "Arial", sans-serif;
+      }
+
+      main p,
+      main br {
+        margin: 0.3em 0;
+      }
+
+      main p span {
+        font-weight: 600;
+      }
+
+      a {
+        color: var(--color-primary);
+      }
+
+      a#ecard {
+        color: var(--color-alt);
+        background-color: var(--color-primary);
+
+        display: inline-block;
+        padding: 0.9em 2em;
+        border-radius: 1em;
+
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      img {
+        margin-bottom: 1em;
+      }
+    </style>
+    <main>
+      <img src="/img/contact.png" alt="Headshot" height="70px" width="70px" />
+      <p>Downloading your <span>resume copy</span>...</p>
+      <br />
+      <p>If the download does not start automatically, <a id="resume" download="sander_vonk_resume.pdf" href="/resume.pdf">click here</a></p>
+      <br />
+      <!-- backup link to go home -->
+      <p>or <a href="/" id="home">head back to my homepage </a></p>
+    </main>
+
+    <script>
+      window.onload = function () {
+        document.getElementById("resume").click();
+        // document.getElementById("home").click();
+      };
+    </script>
+  </body>
+</html>
