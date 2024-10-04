@@ -192,7 +192,6 @@ header nav a {
   flex-shrink: 0;
   flex-grow: 0;
 }
-
 #search {
   /* sizing */
   height: var(--action-height-alt, 55px);

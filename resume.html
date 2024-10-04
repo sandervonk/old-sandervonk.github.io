@@ -116,13 +116,13 @@
       <p>If the download does not start automatically, <a id="resume" download="sander_vonk_resume.pdf" href="/resume.pdf">click here</a></p>
       <br />
       <!-- backup link to go home -->
-      <p>or <a href="/" id="home">head back to my homepage </a></p>
+      <p>or <a href="/resume.pdf" id="pdf">view without saving</a></p>
     </main>
 
     <script>
       window.onload = function () {
         document.getElementById("resume").click();
-        // document.getElementById("home").click();
+        document.getElementById("pdf").click();
       };
     </script>
   </body>
